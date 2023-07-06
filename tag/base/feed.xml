@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://jjaemin0224.github.io/tag/base/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jjaemin0224.github.io/" rel="alternate" type="text/html" />
+  <updated>2023-07-06T20:40:56+09:00</updated>
+  <id>https://jjaemin0224.github.io/tag/base/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Jaemin’s BLOG | </title>
+  
+
+  
+    <subtitle>The only limit is your mind.</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">[개념] Function(함수)</title>
+      <link href="https://jjaemin0224.github.io/Function" rel="alternate" type="text/html" title="[개념] Function(함수)" />
+      <published>2023-05-02T17:30:00+09:00</published>
+      <updated>2023-05-02T17:30:00+09:00</updated>
+      <id>https://jjaemin0224.github.io/Function</id>
+      <content type="html" xml:base="https://jjaemin0224.github.io/Function">&lt;hr /&gt;
+&lt;h2 id=&quot;1-function함수&quot;&gt;1. Function(함수)&lt;/h2&gt;
+
+&lt;h4 id=&quot;1-1-개념&quot;&gt;1-1. 개념&lt;/h4&gt;
+&lt;p&gt;함수는 독립적으로 실행 가능한 코드 블록으로, 입력 값을 받아 처리한 뒤 결과 값을 반환하는 작업을 수행합니다. 함수는 일련의 명령문으로 구성되며, 입력 파라미터를 받아들이고 결과를 반환하는 특징을 가지고 있습니다. 함수는 재사용 가능하고 모듈화된 코드를 작성하는 데 사용됩니다. 많은 프로그래밍 언어에서 함수는 값을 반환하는 경우에 사용되며, 함수의 호출 결과를 변수에 저장하거나 다른 표현식에서 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;1-2-예제-java&quot;&gt;1-2. 예제 (java)&lt;/h4&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 출력: 7&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-method메소드&quot;&gt;2. Method(메소드)&lt;/h2&gt;
+
+&lt;h4 id=&quot;2-1-개념&quot;&gt;2-1. 개념&lt;/h4&gt;
+&lt;p&gt;메소드는 객체 지향 프로그래밍(OOP)에서 클래스나 객체에 속한 함수로서, 클래스의 특정 동작을 정의합니다. 메소드는 클래스 내부에 정의되며, 해당 클래스의 인스턴스(객체)에 의해 호출됩니다. 메소드는 클래스의 속성에 접근하고 조작하는 작업을 수행할 수 있으며, 객체의 특정 상태와 관련된 동작을 정의합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;2-2-예제-java&quot;&gt;2-2. 예제 (java)&lt;/h4&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Circle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radius&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calculateArea&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;PI&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radius&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radius&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;Circle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myCircle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Circle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;myCircle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;radius&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;5.0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myCircle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;calculateArea&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;area&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 출력: 78.53981633974483&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;‘Circle’ 클래스 내부에 ‘calculateArea’ 메서드가 정의되어 있습니다. 이 메서드는 원의 반지름을 기반으로 원의 넓이를 계산하고 반환합니다. ‘myCircle’ 객체를 생성한 후 반지름 값을 설정하고, ‘calculateArea’ 메서드를 호출하여 원의 넓이를 계산합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;3-procedure프로시저&quot;&gt;3. Procedure(프로시저)&lt;/h2&gt;
+
+&lt;h4 id=&quot;3-1-개념&quot;&gt;3-1. 개념&lt;/h4&gt;
+&lt;p&gt;프로시저는 일련의 작업을 수행하는 코드 블록으로, 특정한 결과 값을 반환하지 않는 절차적인 코드입니다. 프로시저는 함수와 유사하게 동작하지만, 결과 값을 반환하지 않는다는 점에서 차이가 있습니다. 프로시저는 보통 어떤 작업을 수행하고 그 결과를 호출한 쪽에 전달하기 위해 사용됩니다. 몇몇 프로그래밍 언어에서는 프로시저와 함수를 구분하지 않고 사용하기도 합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;3-2-예제-python&quot;&gt;3-2. 예제 (python)&lt;/h4&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;print_hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 출력: Hello, John!
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;‘print_hello’ 프로시저는 인자로 받은 이름을 사용하여 “Hello, [name]!”과 같은 인사말을 출력하는 작업을 수행합니다. print_hello(“John”)과 같이 호출하면 “Hello, John!”이 출력됩니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;4-subroutine서브루틴&quot;&gt;4. Subroutine(서브루틴)&lt;/h2&gt;
+
+&lt;h4 id=&quot;4-1-개념&quot;&gt;4-1. 개념&lt;/h4&gt;
+&lt;p&gt;서브루틴은 프로그램 내에서 다른 부분에 의해 호출되어 실행되는 일련의 작업을 수행하는 코드 조각입니다. 서브루틴은 보통 프로그램의 여러 곳에서 재사용되는 작업을 모듈화하기 위해 사용됩니다. 서브루틴은 일반적으로 호출되면서 어떤 값을 전달받고, 필요한 작업을 수행한 뒤 결과를 반환하지 않습니다. 함수와 메소드를 포함하여 프로시저도 서브루틴에 속하는 개념입니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;4-2-예제-javascript&quot;&gt;4-2. 예제 (javascript)&lt;/h4&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;greet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;welcome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Welcome!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;performGreeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;greet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;welcome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;performGreeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;‘greet’와 ‘welcome’은 각각 인사 메시지를 출력하는 서브루틴입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jjaemin0224</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="base" />
+      
+
+      
+        <summary type="html">1. Function(함수)</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

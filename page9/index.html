@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Jaemin's BLOG</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <!-- Web Font 추가 -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet"> -->
+
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="The only limit is your mind." />
+    <link rel="shortcut icon" href="https://jjaemin0224.github.io/assets/images/blog/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://jjaemin0224.github.io/page9/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Jaemin's BLOG" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jaemin's BLOG" />
+    <meta property="og:description" content="The only limit is your mind." />
+    <meta property="og:url" content="https://jjaemin0224.github.io/page9/" />
+    <meta property="og:image" content="https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jaemin's BLOG" />
+    <meta name="twitter:description" content="The only limit is your mind." />
+    <meta name="twitter:url" content="https://jjaemin0224.github.io/" />
+    <meta name="twitter:image" content="https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Jaemin's BLOG" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Jaemin's BLOG",
+        "logo": "https://jjaemin0224.github.io/"
+    },
+    "url": "https://jjaemin0224.github.io/page9/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jjaemin0224.github.io/page9/"
+    },
+    "description": "The only limit is your mind."
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Jaemin's BLOG" href="/feed.xml" />
+
+
+</head>
+<body class="paged archive-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer " style="background-image:  url(/assets/images/blog/backgroud.jpg) ">
+    <div class="inner">
+        <div class="site-header-content">
+            <h1 class="site-title">
+                
+                    Jaemin's BLOG
+                
+            </h1>
+            <h2 class="site-description">The only limit is your mind.</h2>
+        </div>
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem">
+        <a href="/">Home</a>
+    </li>
+    <li class="nav-about" role="menuitem">
+        <a href="/about/">About</a>
+    </li>
+    <!-- <li class="nav-knowledge" role="menuitem">
+        <a href="/tag/knowledge/">Knowledge</a>
+    </li> -->
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/author_archive.html">Tag Posts</a>
+    </li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- The main content area -->
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <div class="post-feed">
+            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+            
+
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/b1000">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Baekjoon</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[백준] 1000번(java)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>문제
+
+  두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/b2557">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Baekjoon</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[백준] 2557번(java)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>풀이
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/ioc">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Spring</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[스프링] IOC(Inversion of Control)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. IOC(Inversion of Control)
+IOC(Inversion of Control)는 스프링(Spring) 프레임워크에서 사용되는 핵심 개념 중 하나입니다. IOC는 제어의 역전이라고도 불리며, 객체의 생성과 관리를 개발자가 아닌 프레임워크가 담당하는 것을 의미합니다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/spring_annotation">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Spring</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[스프링] 주요 Annotation</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>1. @Service ‘@Service’ 어노테이션은 비즈니스 로직을 처리하는 서비스(Service) 클래스에 적용됩니다. 주로 비즈니스 로직을 수행하고, 트랜잭션 관리, 데이터 가공, 외부 시스템과의 통합 등을 담당합니다. ‘@Service’ 어노테이션이 지정된 클래스는 스프링의 컴포넌트 스캔에 의해 스프링 컨테이너에</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/di">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Spring</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[스프링] DI(Dependency Injection)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. DI(Dependency Injection)
+DI(Dependency Injection)는 객체 지향 프로그래밍에서 사용되는 설계 원칙 중 하나입니다. DI는 객체 간의 의존성을 외부에서 주입하는 방식으로, 객체를 생성하거나 관리하지 않고, 의존성을 외부에서 받아와 사용하는 것을 의미합니다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/lambda">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Java</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[자바] 람다(Lambda)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. 람다 (Lambda)
+자바에서 람다식은 함수형 프로그래밍 스타일을 지원하기 위해 JDK 8부터 도입된 기능입니다. 람다식은 익명 함수(Anonymous Function)를 간결하게 표현하는 방법입니다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      2 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/interface">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Java</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[자바] 인터페이스(Interface)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. 인터페이스 (Interface)
+인터페이스는 추상화된 타입을 정의하는 역할을 합니다. 인터페이스는 메서드 시그니처(메서드의 이름, 매개변수, 변환 타입)를 선언하고, 구현체 클래스에서 이러한 메서드를 구현하도록 요구합니다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      3 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/thread">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Java</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[자바] Thread(쓰레드)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. Thread
+쓰레드(Thread)는 프로세스 내에서 실행되는 독립적인 실행 단위로, 프로그램의 흐름을 제어하는 기본적인 개념입니다. 즉, 쓰레드는 프로세스 안에서 작업을 수행하는 단위로서, 하나의 프로세스에느 여러 개의 쓰레드가 동시에 실행될 수 있습니다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      6 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/accessmodifiers-keyword">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Java</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[자바] 접근 지정자와 키워드</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. 접근 지정자 (Access Modifiers)
+접근 지정자(Access Modifiers)는 클래스의 멤버(변수, 메서드, 생성자)에 대한 접근 권한을 제어하는 키워드입니다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/overloading-overriding">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Java</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[자바] Overloading 과 Overriding</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. Overloading
+Overloading은 동일한 이름을 가진 메서드나 생성자를 여러 개 정의하는 것을 말한다. 오버로딩은 다양한 매개변수 조합에 대해 메서드의 동작을 정의하고 유연성을 제공하는데 사용된다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/stringbuilder-stringbuffer">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Java</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[자바] StringBuilder 와 StringBuffer</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>1. StringBuilder StringBuilder는 Java에서 문자열을 동적으로 변경하기 위한 클래스다. 문자열 연결이나 변경 작업이 필요한 경우, 일반적으로 문자열 직접 변경하면 새로운 문자열을 생성해야 하기 때문에 성능상의 이슈가 발생할 수 있다. 이 때 StringBuilder를 사용하면</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/stream">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Java</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[자바] Stream</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. Stream이란
+컴퓨터 과학 및 정보 기술에서 사용되는 용어로, 데이터의 연속적인 흐름이나 시퀀스를 가리킨다. 일반적으로 데이터 스트림은 네트워크 통신, 파일 입출력, 센서 데이터 등 다양한 소스에서 나온 데이터를 의미한다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+
+        </div>
+
+    </div>
+</main>
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+            
+                <nav class="pagination" role="pagination">
+    
+        
+            <a class="newer-posts" href="/page8/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 9 of 10 </span>
+     
+        <a class="older-posts" href="/page10/" title="Next Page">Older Posts &raquo;</a>
+     
+</nav>
+            
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://jjaemin0224.github.io/">Jaemin's BLOG</a> &copy; 2023</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Search to Jaemin's BLOG</h1>
+                <p class="subscribe-overlay-description">게시물 제목을 검색하세요!</p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('10');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

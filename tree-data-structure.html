@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>[알고리즘] 트리</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <!-- Web Font 추가 -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet"> -->
+
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="The only limit is your mind." />
+    <link rel="shortcut icon" href="https://jjaemin0224.github.io/assets/images/blog/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://jjaemin0224.github.io/tree-data-structure" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Jaemin's BLOG" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="[알고리즘] 트리" />
+    <meta property="og:description" content="1. 트리(Tree) 1-1. 개념 트리(Tree)는 계층적인 구조를 가지며, 노드(Node)들로 구성된 비선형 자료구조입니다. 트리는 하나의 루트(Root) 노드를 가지고 있고, 각 노드는 부모-자식 관계로 연결되어 있습니다. 1-2. 구성 요소 노드(Node): 트리를 구성하는 각각의 요소를 나타냅니다. 노드는 데이터를 저장하고, 부모-자식 관계를 가지며, 다른 노드와 연결됩니다. 루트(Root) 노드: 트리의 시작점으로, 다른 모든 노드의 조상입니다." />
+    <meta property="og:url" content="https://jjaemin0224.github.io/tree-data-structure" />
+    <meta property="og:image" content="https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2023-05-10T17:30:00+09:00" />
+    <meta property="article:modified_time" content="2023-05-10T17:30:00+09:00" />
+    <meta property="article:tag" content="Algorithm" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="[알고리즘] 트리" />
+    <meta name="twitter:description" content="1. 트리(Tree) 1-1. 개념 트리(Tree)는 계층적인 구조를 가지며, 노드(Node)들로 구성된 비선형 자료구조입니다. 트리는 하나의 루트(Root) 노드를 가지고 있고, 각 노드는 부모-자식 관계로 연결되어 있습니다. 1-2. 구성 요소 노드(Node): 트리를 구성하는 각각의 요소를 나타냅니다. 노드는 데이터를 저장하고, 부모-자식 관계를 가지며, 다른 노드와 연결됩니다. 루트(Root) 노드: 트리의 시작점으로, 다른 모든 노드의 조상입니다." />
+    <meta name="twitter:url" content="https://jjaemin0224.github.io/" />
+    <meta name="twitter:image" content="https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Jaemin's BLOG" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Algorithm" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Jaemin's BLOG",
+        "logo": "https://jjaemin0224.github.io/"
+    },
+    "url": "https://jjaemin0224.github.io/tree-data-structure",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jjaemin0224.github.io/tree-data-structure"
+    },
+    "description": "1. 트리(Tree) 1-1. 개념 트리(Tree)는 계층적인 구조를 가지며, 노드(Node)들로 구성된 비선형 자료구조입니다. 트리는 하나의 루트(Root) 노드를 가지고 있고, 각 노드는 부모-자식 관계로 연결되어 있습니다. 1-2. 구성 요소 노드(Node): 트리를 구성하는 각각의 요소를 나타냅니다. 노드는 데이터를 저장하고, 부모-자식 관계를 가지며, 다른 노드와 연결됩니다. 루트(Root) 노드: 트리의 시작점으로, 다른 모든 노드의 조상입니다."
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="[알고리즘] 트리" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://jjaemin0224.github.io/">Jaemin's BLOG</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem">
+        <a href="/">Home</a>
+    </li>
+    <li class="nav-about" role="menuitem">
+        <a href="/about/">About</a>
+    </li>
+    <!-- <li class="nav-knowledge" role="menuitem">
+        <a href="/tag/knowledge/">Knowledge</a>
+    </li> -->
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/author_archive.html">Tag Posts</a>
+    </li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-algorithm post no-image">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="10 May 2023">10 May 2023</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/algorithm/'>ALGORITHM</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">[알고리즘] 트리</h1>
+            </header>
+
+            <!-- 
+             
+            -->
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <hr />
+<h2 id="1-트리tree">1. 트리(Tree)</h2>
+
+<h4 id="1-1-개념">1-1. 개념</h4>
+<p>트리(Tree)는 계층적인 구조를 가지며, 노드(Node)들로 구성된 비선형 자료구조입니다. 트리는 하나의 루트(Root) 노드를 가지고 있고, 각 노드는 부모-자식 관계로 연결되어 있습니다.</p>
+
+<p><img src="/assets/images/algorithm/tree1.png" alt="" /></p>
+
+<h4 id="1-2-구성-요소">1-2. 구성 요소</h4>
+<ol>
+  <li>노드(Node):
+    <blockquote>
+      <p>트리를 구성하는 각각의 요소를 나타냅니다. 노드는 데이터를 저장하고, 부모-자식 관계를 가지며, 다른 노드와 연결됩니다.</p>
+    </blockquote>
+  </li>
+  <li>루트(Root) 노드:
+    <blockquote>
+      <p>트리의 시작점으로, 다른 모든 노드의 조상입니다. 모든 경로는 루트 노드에서 시작합니다.</p>
+    </blockquote>
+  </li>
+  <li>부모(Parent) 노드:
+    <blockquote>
+      <p>자식 노드를 가지는 노드를 부모 노드라고 합니다. 한 노드는 여러 개의 자식을 가질 수 있지만, 부모는 오직 하나의 노드만을 가집니다.</p>
+    </blockquote>
+  </li>
+  <li>자식(Child) 노드:
+    <blockquote>
+      <p>부모 노드에 연결된 노드를 자식 노드라고 합니다. 각 부모 노드는 여러 개의 자식 노드를 가질 수 있습니다.</p>
+    </blockquote>
+  </li>
+  <li>리프(Leaf) 노드:
+    <blockquote>
+      <p>자식이 없는 노드를 리프 노드라고 합니다. 즉, 리프 노드는 트리의 가장 끝에 위치한 노드입니다.</p>
+    </blockquote>
+  </li>
+</ol>
+
+<p>트리는 계층 구조를 표현하는 데 유용하며, 데이터의 저장, 검색, 정렬, 계층적 구조의 표현 등 다양한 애플리케이션에서 사용됩니다. 예를 들어, 파일 시스템의 디렉토리 구조, 조직의 조직도, 컴퓨터 네트워크의 계층 구조 등에서 트리 자료구조가 활용됩니다.</p>
+
+<hr />
+<h2 id="2-이진-트리binary-tree">2. 이진 트리(Binary Tree)</h2>
+
+<h4 id="2-1-개념">2-1. 개념</h4>
+<p>이진 트리(Binary Tree)는 각 노드가 최대 두 개의 자식 노드를 가지는 트리 구조입니다. 이진 트리는 노드들로 구성되며, 각 노드는 최대 두 개의 자식 노드를 가질 수 있습니다. 왼쪽 자식 노드와 오른족 자식 노드로 구성되며, 빈 자식 노드일 경우 Null 값을 가집니다.</p>
+
+<h4 id="2-2-특징">2-2. 특징</h4>
+<ul>
+  <li>루트(Root)
+    <blockquote>
+      <p>이진 트리의 최상위 노드를 의미합니다. 모든 경로는 루트 노드에서 시작됩니다.</p>
+    </blockquote>
+  </li>
+  <li>내부 노드(Internal Node)
+    <blockquote>
+      <p>최소한 하나의 자식 노드를 가지는 노드를 의미합니다.</p>
+    </blockquote>
+  </li>
+  <li>외부 노드(Leaf Node)
+    <blockquote>
+      <p>자식 노드를 가지지 않는 노드로, 트리의 가장 끝에 위치합니다.</p>
+    </blockquote>
+  </li>
+  <li>균형 트리(Balanced Tree)
+    <blockquote>
+      <p>좌우의 서브 트리의 높이 차이가 최대 하나인 트리를 의미합니다. 균형 트리는 검색과 같은 연산에서 빠른 속도를 보장합니다.</p>
+    </blockquote>
+  </li>
+  <li>이진 탐색 트리(Binary Search Tree)
+    <blockquote>
+      <p>이진 트리의 한 종류로, 왼쪽 서브 트리의 모든 노드는 현재 노드보다 작은 값을 가지고, 오른쪽 서브 트리의 모든 노드는 현재 노드보다 큰 값을 가집니다. 이를 통해 효율적인 탐색과 정렬이 가능합니다.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h4 id="2-3-장점">2-3. 장점</h4>
+<ul>
+  <li>데이터의 검색, 삽입, 삭제 등의 연산을 효율적으로 수행할 수 있습니다.</li>
+  <li>이진 탐색 트리는 데이터를 정렬된 상태로 유지하므로, 특정 값을 탐색하는데 유용합니다.</li>
+  <li>이진 트리는 다양한 알고리즘과 데이터 구조의 기반이 되어 유용하게 활용될 수 있습니다.</li>
+</ul>
+
+<h4 id="2-4-단점">2-4. 단점</h4>
+<ul>
+  <li>이진 트리는 정렬된 데이터를 삽입하는 경우에도 최악의 경우에는 트리가 한 쪽으로 치우칠 수 있습니다. 이러한 경우 트리의 높이가 증가하여 연산의 성능이 저하될 수 있습니다.</li>
+  <li>일반적으로 트리의 구현은 포인터나 연결 리스트로 이루어지기 때문에 추가적인 메모리 공간이 필요합니다.</li>
+</ul>
+
+<hr />
+<h2 id="3-avl-트리avl-tree">3. AVL 트리(AVL Tree)</h2>
+
+<h4 id="3-1-개념">3-1. 개념</h4>
+<p>AVL 트리는 균형 이진 트리(Balanced Binary Tree)의 한 종류로, 모든 노드의 왼쪽 서브 트리와 오른쪽 서브 트리의 높이 차이가 최대 1인 트리입니다. AVL 트리는 이진 탐색 트리(Binary Search Tree)의 단점인 트리의 불균형을 해결하기 위해 고안되었습니다.</p>
+
+<h4 id="3-2-특징">3-2. 특징</h4>
+<ul>
+  <li>균형 조건
+    <blockquote>
+      <p>모든 노드의 왼쪽 서브 트리와 오른쪽 서브 트리의 높이 차이가 최대 1로 유지됩니다.</p>
+    </blockquote>
+  </li>
+  <li>자가 균형
+    <blockquote>
+      <p>AVL 트리는 삽입 또는 삭제 연산 수행 시, 자동으로 균형을 유지하기 위해 회전 연산을 수행합니다.</p>
+    </blockquote>
+  </li>
+  <li>빠른 탐색
+    <blockquote>
+      <p>AVL 트리는 이진 탐색 트리의 특성을 가지므로 탐색 연산의 시간 복잡도가 O(log n)입니다.</p>
+    </blockquote>
+  </li>
+  <li>삽입, 삭제의 균형 조정
+    <blockquote>
+      <p>AVL 트리는 삽입 또는 삭제 연산 수행 시, 회전 연산을 통해 균형을 유지합니다. 이를 통해 트리의 불균형을 방지하고 효율적인 연산을 수행합니다.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h4 id="3-3-장점">3-3. 장점</h4>
+<ul>
+  <li>탐색, 삽입, 삭제 연산의 시간 복잡도가 O(log n)으로 매우 효율적입니다.</li>
+  <li>AVL 트리는 불균형한 상태를 자동으로 균형을 맞추는 회전 연산을 수행하여 항상 균형을 유지합니다.</li>
+  <li>이진 탐색 트리의 특성을 그대로 가지므로 탐색과 관련된 작업에 효율적입니다.</li>
+</ul>
+
+<h4 id="3-4-단점">3-4. 단점</h4>
+<ul>
+  <li>AVL 트리는 노드를 삽입 또는 삭제할 때마다 균형을 맞추기 위해 회전 연산을 수행해야 하므로 일반 이진 탐색 트리에 비해 삽입, 삭제 연산이 더 복잡합니다.</li>
+  <li>AVL 트리는 균형을 유지하기위해 추가적인 메모리 공간을 필요로 합니다.</li>
+</ul>
+
+<hr />
+<h2 id="4-rb-트리rb-tree">4. RB 트리(RB Tree)</h2>
+
+<h4 id="4-1-개념">4-1. 개념</h4>
+<p>RB(Red-Black) 트리는 이진 탐색 트리의 일종으로 각 노드에 “color”라는 추가적인 속성을 가지고 있어서 균형을 유지하는 자기 균형 이진 탐색 트리입니다.</p>
+
+<h4 id="4-2-특징">4-2. 특징</h4>
+<ul>
+  <li>색 속성: 각 노드는 빨강 또는 검정 중 하나의 색을 가지고 있습니다.</li>
+  <li>규칙 1: 루트 노드는 검정입니다.</li>
+  <li>규칙 2: 모든 리브 노드(NIL 노드)는 검정입니다.</li>
+  <li>규칙 3: 빨강 노드의 두 자식은 모두 검정입니다.</li>
+  <li>규칙 4: 어떤 노드로부터 시작되어 리프 노드에 도달하는 모든 경로에는 동일한 개수의 검은색 노드가 있어야합니다. 이를 “black height”라고도 합니다.</li>
+</ul>
+
+<h4 id="4-3-장점">4-3. 장점</h4>
+<ul>
+  <li>탐색, 삽입, 삭제 연산의 최악의 경우 시간 복잡도가 O(log n)으로 보장됩니다.</li>
+  <li>균형을 유지하면서 데이터를 저장하기 때문에 최악의 경우에도 트리의 높이가 작아서 효율적인 탐색이 가능합니다.</li>
+  <li>데이터의 삽입, 삭제가 자주 일어나는 경우에도 효율적인 연산이 가능합니다.</li>
+</ul>
+
+<h4 id="4-4-단점">4-4. 단점</h4>
+<ul>
+  <li>AVL 트리에 비해 상대적으로 구현이 복잡합니다. 삽입, 삭제 연산에 대한 로테이션 및 리컬러링이 필요합니다.</li>
+  <li>RB 트리는 AVL 트리보다 상대적으로 더 많은 메모리를 사용합니다. 각 노드에 색상을 나타내는 비트가 추가로 필요하기 때문입니다.</li>
+</ul>
+
+<hr />
+<h2 id="5-b-트리b-tree">5. B 트리(B Tree)</h2>
+
+<h4 id="5-1-개념">5-1. 개념</h4>
+<p>B 트리는 데이터를 저장하고 검색하는 데 사용되는 자료 구조로, 데이터베이스와 파일 시스템에서 널리 활용됩니다. B 트리는 다양한 특징과 장점을 가지고 있습니다. B 트리는 균형 이진 검색 트리의 일종으로, 각 노드가 여러 개의 키와 자식 노드를 가질 수 있습니다. 트리의 모든 리프 노드는 동일한 레벨에 있어야 하며, 각 노드는 최소한 t-1개의 키를 가지고 있어야 합니다. B 트리는 자주 사용되는 데이터베이스 연산인 검색, 삽입, 삭제 등을 효율적으로 수행할 수 있도록 설계되었습니다.</p>
+
+<p>B 트리는 대용량 데이터 처리와 동시 액세스를 효율적으로 다루기 위한 자료 구조로 널리 사용됩니다. 데이터베이스 관리 시스템, 파일 시스템, 캐시 구현 등에서 활용되며, 데이터의 검색과 변경 작업을 효율적으로 처리하는 데 큰 역할을 합니다.</p>
+
+<h4 id="5-2-특징">5-2. 특징</h4>
+<ul>
+  <li>B 트리는 균형을 유지하여 검색, 삽입, 삭제 연산을 O(log n) 시간에 수행합니다. 이는 대용량 데이터 처리에 매우 효율적입니다.</li>
+  <li>B 트리는 삽입, 삭제 시에도 트리의 구조를 재조정하여 균형을 유지합니다. 이를 통해 트리의 높이를 최소한으로 유지할 수 있습니다.</li>
+  <li>B 트리는 효율적인 디스크 액세스를 위해 세분화된 블록 단위로 데이터를 저장하므로, 데이터베이스와 파일 시스템에서 널리 사용됩니다.</li>
+  <li>B 트리는 다양한 운영체제와 파일 시스템에서 지원되며, 여러 클라이언트의 동시 액세스를 효과적으로 처리할 수 있습니다.</li>
+</ul>
+
+<h4 id="5-3-장점">5-3. 장점</h4>
+<ul>
+  <li>대용량 데이터 처리에 효율적입니다.</li>
+  <li>검색, 삽입, 삭제 연산을 효율적으로 수행합니다.</li>
+  <li>디스크 액세스를 최소화하여 성능을 향상시킵니다.</li>
+  <li>여러 클라이언트의 동시 액세스를 지원합니다.</li>
+</ul>
+
+<h4 id="5-4-단점">5-4. 단점</h4>
+<ul>
+  <li>구현이 복잡하고 상대적으로 높은 메모리 요구사항이 있습니다.</li>
+  <li>데이터의 순차 접근에 대해서는 다른 자료 구조들보다 성능이 떨어질 수 있습니다.</li>
+</ul>
+
+<hr />
+<h2 id="6-힙heap">6. 힙(Heap)</h2>
+
+<h4 id="6-1-개념">6-1. 개념</h4>
+<p>트리에서의 “힙”은 특정한 규칙을 가지는 이진 트리입니다. 힙은 주로 우선순위 큐와 관련된 작업에 사용되며, 데이터를 정렬된 상태로 유지하고 효율적인 삽입 및 삭제 연산을 제공합니다. 힙은 완전 이진 트리(Complete Binary Tree)로서, 부모 노드와 자식 노드 간에 일정한 순서를 유지하는 이진 트리입니다. 대부분의 경우, 힙은 최대 힙(Max Heap) 또는 최소 힙(Min Heap)으로 구성되며, 이는 부모 노드와 자식 노드 간의 순서 관계를 정의합니다.</p>
+
+<p>힙은 주로 우선순위 큐를 구현하는 데 사용되며, 데이터의 우선순위에 따라 정렬된 상태를 유지하는 빠른 삽입 및 삭제 연산을 제공합니다. 이를 통해 효율적인 작업 스케줄링, 이벤트 처리, 데이터 정렬 등에 활용될 수 있습니다.</p>
+
+<h4 id="6-2-특징">6-2. 특징</h4>
+<ul>
+  <li>최대 힙(Max Heap)은 부모 노드가 항상 자식 노드보다 크거나 같은 값을 가지는 힙입니다. 최소 힙(Min Heap)은 부모 노드가 항상 자식 노드보다 작거나 같은 값을 가지는 힙입니다.</li>
+  <li>힙은 우선순위 큐를 구현하는 데 매우 유용합니다. 최대 힙은 가장 큰 요소에 빠르게 접근할 수 있으며, 최소 힙은 가장 작은 요소에 빠르게 접근할 수 있습니다.</li>
+  <li>힙은 삽입 및 삭제 연산을 O(log n) 시간에 수행할 수 있습니다. 이는 효율적인 우선순위 큐 구현을 가능하게 합니다.</li>
+</ul>
+
+<h4 id="6-3-장점">6-3. 장점</h4>
+<ul>
+  <li>힙은 우선순위 큐와 관련된 작업에 매우 효율적입니다.</li>
+  <li>데이터를 정렬된 상태로 유지하므로, 가장 크거나 작은 값에 빠르게 접근할 수 있습니다.</li>
+  <li>삽입 및 삭제 연산을 효율적으로 수행할 수 있습니다.</li>
+</ul>
+
+<h4 id="6-4-단점">6-4. 단점</h4>
+<ul>
+  <li>임의의 요소에 접근하는 데에는 비효율적일 수 있습니다. 힙은 순차 접근이 아닌 우선순위에 따라 접근하는 데에 최적화되어 있습니다.</li>
+</ul>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            <!--
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to Jaemin's BLOG</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+
+                </section>
+            
+            -->
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/jjaemin0224">jjaemin0224</a></h4>
+                                
+                                    <p>Read <a href="/author/jjaemin0224">more posts</a> by this author.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/jjaemin0224">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/assets/images/blog/backgroud.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; Jaemin's BLOG &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/algorithm/">Algorithm</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/bfs">[알고리즘] BFS(너비 우선 탐색)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/exponentiation-by-squaring">[알고리즘] Exponentiation by Squaring (지수의 분할 정복)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/sorting-algorithm">[알고리즘] 정렬</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/algorithm/">
+                                
+                                    See all 6 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/sorting-algorithm">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Algorithm</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[알고리즘] 정렬</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. 정렬 알고리즘
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      9 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/linear-data-structure">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Algorithm</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[알고리즘] 선형 데이터</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+1. 배열(Array)
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      2 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="https://jjaemin0224.github.io/">
+            
+            <span>Jaemin's BLOG</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">[알고리즘] 트리</div>
+    <!-- <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%5B%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%5D+%ED%8A%B8%EB%A6%AC&amp;url=https://jjaemin0224.github.io/tree-data-structure"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jjaemin0224.github.io/tree-data-structure"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div> -->
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://jjaemin0224.github.io/">Jaemin's BLOG</a> &copy; 2023</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Search to Jaemin's BLOG</h1>
+                <p class="subscribe-overlay-description">게시물 제목을 검색하세요!</p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

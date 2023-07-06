@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>The only limit is your mind.</description>
+    <link>
+    https://jjaemin0224.github.io</link>
+    
+      
+      <item>
+        <title>[백준] 14215번(java)</title>
+        
+          <description>&lt;h2 id=&quot;세-막대&quot;&gt;세 막대&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 14:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b14215</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b14215</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 5073번(java)</title>
+        
+          <description>&lt;h2 id=&quot;삼각형과-세-변&quot;&gt;삼각형과 세 변&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 13:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b5073</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b5073</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10101번(java)</title>
+        
+          <description>&lt;h2 id=&quot;삼각형-외우기&quot;&gt;삼각형 외우기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 13:10:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10101</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10101</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 9063번(java)</title>
+        
+          <description>&lt;h2 id=&quot;대지&quot;&gt;대지&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b9063</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b9063</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 3009번(java)</title>
+        
+          <description>&lt;h2 id=&quot;직사각형에서-탈출&quot;&gt;직사각형에서 탈출&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 11:40:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b3009</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b3009</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 15894번(java)</title>
+        
+          <description>&lt;h2 id=&quot;수학은-체육과목입니다&quot;&gt;수학은 체육과목입니다.&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 11:40:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b15894</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b15894</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1085번(java)</title>
+        
+          <description>&lt;h2 id=&quot;직사각형에서-탈출&quot;&gt;직사각형에서 탈출&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 11:20:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1085</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1085</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 27323번(java)</title>
+        
+          <description>&lt;h2 id=&quot;직사각형&quot;&gt;직사각형&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 30 Jun 2023 11:10:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b27323</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b27323</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] Queue</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-queue&quot;&gt;1. Queue&lt;/h2&gt;
+&lt;p&gt;자바에서 Queue는 자료 구조의 한 종류로, 선입선출(FIFO, First-In-First-Out) 원칙을 따르는 컬렉션입니다. 큐는 요소들을 순서대로 저장하고, 새로운 요소는 큐의 끝에 추가되며, 요소들은 큐의 앞에서 제거됩니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 28 Jun 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/queue</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/queue</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2581번(java)</title>
+        
+          <description>&lt;h2 id=&quot;소수&quot;&gt;소수&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 23 Jun 2023 15:40:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2581</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2581</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1978번(java)</title>
+        
+          <description>&lt;h2 id=&quot;소수찾기&quot;&gt;소수찾기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 23 Jun 2023 15:10:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1978</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1978</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 9506번(java)</title>
+        
+          <description>&lt;h2 id=&quot;약수들의-합&quot;&gt;약수들의 합&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 23 Jun 2023 14:40:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b9506</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b9506</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2501번(java)</title>
+        
+          <description>&lt;h2 id=&quot;약수-구하기&quot;&gt;약수 구하기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 23 Jun 2023 14:20:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2501</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2501</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 11653번(java)</title>
+        
+          <description>&lt;h2 id=&quot;소인수분해&quot;&gt;소인수분해&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 23 Jun 2023 14:10:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b11653</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b11653</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 5086번(java)</title>
+        
+          <description>&lt;h2 id=&quot;배수와-약수&quot;&gt;배수와 약수&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 23 Jun 2023 13:50:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b5086</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b5086</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[알고리즘] BFS(너비 우선 탐색)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-bfs&quot;&gt;1. BFS&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 22 Jun 2023 13:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/bfs</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/bfs</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 11005번(java)</title>
+        
+          <description>&lt;h2 id=&quot;진법-변환&quot;&gt;진법 변환&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 18:50:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b11005</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b11005</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2745번(java)</title>
+        
+          <description>&lt;h2 id=&quot;진법-변환&quot;&gt;진법 변환&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 16:50:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2745</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2745</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10757번(java)</title>
+        
+          <description>&lt;h2 id=&quot;큰-수-ab&quot;&gt;큰 수 A+B&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 16:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10757</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10757</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2869번(java)</title>
+        
+          <description>&lt;h2 id=&quot;달팽이는-올라가고-싶다&quot;&gt;달팽이는 올라가고 싶다&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 15:50:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2869</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2869</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1193번(java)</title>
+        
+          <description>&lt;h2 id=&quot;분수찾기&quot;&gt;분수찾기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 15:10:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1193</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1193</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2292번(java)</title>
+        
+          <description>&lt;h2 id=&quot;벌집&quot;&gt;벌집&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 14:10:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2292</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2292</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2903번(java)</title>
+        
+          <description>&lt;h2 id=&quot;중앙-이동-알고리즘&quot;&gt;중앙 이동 알고리즘&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 14:00:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2903</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2903</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2720번(java)</title>
+        
+          <description>&lt;h2 id=&quot;세탁소-사장-동혁&quot;&gt;세탁소 사장 동혁&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 13:50:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2720</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2720</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 25206번(java)</title>
+        
+          <description>&lt;h2 id=&quot;너의-평점은&quot;&gt;너의 평점은&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2023 12:50:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b25206</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b25206</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2563번(java)</title>
+        
+          <description>&lt;h2 id=&quot;색종이&quot;&gt;색종이&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 10 Jun 2023 12:50:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2563</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2563</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10798번(java)</title>
+        
+          <description>&lt;h2 id=&quot;세로-읽기&quot;&gt;세로 읽기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 10 Jun 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10798</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10798</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2566번(java)</title>
+        
+          <description>&lt;h2 id=&quot;최댓값&quot;&gt;최댓값&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 10 Jun 2023 12:10:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2566</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2566</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2728번(java)</title>
+        
+          <description>&lt;h2 id=&quot;행렬-덧셈&quot;&gt;행렬 덧셈&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 10 Jun 2023 11:50:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2728</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2728</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1316번(java)</title>
+        
+          <description>&lt;h2 id=&quot;그룹-단어-체커&quot;&gt;그룹 단어 체커&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Jun 2023 00:37:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1316</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1316</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2941번(java)</title>
+        
+          <description>&lt;h2 id=&quot;크로아티아-알파벳&quot;&gt;크로아티아 알파벳&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Jun 2023 00:33:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2941</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2941</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1157번(java)</title>
+        
+          <description>&lt;h2 id=&quot;단어-공부&quot;&gt;단어 공부&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Jun 2023 00:29:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1157</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1157</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10988번(java)</title>
+        
+          <description>&lt;h2 id=&quot;팰린드롬인지-확인하기&quot;&gt;팰린드롬인지 확인하기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Jun 2023 00:27:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10988</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10988</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2444번(java)</title>
+        
+          <description>&lt;h2 id=&quot;별-찍기---7&quot;&gt;별 찍기 - 7&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Jun 2023 00:23:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2444</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2444</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 3003번(java)</title>
+        
+          <description>&lt;h2 id=&quot;새싹&quot;&gt;새싹&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Jun 2023 00:21:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b3003</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b3003</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 25083번(java)</title>
+        
+          <description>&lt;h2 id=&quot;새싹&quot;&gt;새싹&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Jun 2023 00:19:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b25083</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b25083</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 9086번(java)</title>
+        
+          <description>&lt;h2 id=&quot;문자열&quot;&gt;문자열&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 23:59:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b9086</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b9086</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2743번(java)</title>
+        
+          <description>&lt;h2 id=&quot;단어-길이-재기&quot;&gt;단어 길이 재기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 23:57:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2743</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2743</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 27866번(java)</title>
+        
+          <description>&lt;h2 id=&quot;문자와-문자열&quot;&gt;문자와 문자열&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 23:54:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b27866</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b27866</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 11718번(java)</title>
+        
+          <description>&lt;h2 id=&quot;그대로-출력하기&quot;&gt;그대로 출력하기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 00:17:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b11718</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b11718</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 5622번(java)</title>
+        
+          <description>&lt;h2 id=&quot;다이얼&quot;&gt;다이얼&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 00:14:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b5622</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b5622</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2908번(java)</title>
+        
+          <description>&lt;h2 id=&quot;상수&quot;&gt;상수&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 00:11:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2908</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2908</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1152번(java)</title>
+        
+          <description>&lt;h2 id=&quot;단어의-개수&quot;&gt;단어의 개수&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 00:08:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1152</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1152</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2675번(java)</title>
+        
+          <description>&lt;h2 id=&quot;문자열-반복&quot;&gt;문자열 반복&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 00:07:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2675</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2675</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10809번(java)</title>
+        
+          <description>&lt;h2 id=&quot;알파벳-찾기&quot;&gt;알파벳 찾기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 00:05:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10809</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10809</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 11720번(java)</title>
+        
+          <description>&lt;h2 id=&quot;숫자의-합&quot;&gt;숫자의 합&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 00:02:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b11720</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b11720</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 11654번(java)</title>
+        
+          <description>&lt;h2 id=&quot;아스키-코드&quot;&gt;아스키 코드&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 May 2023 00:01:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b11654</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b11654</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[알고리즘] Exponentiation by Squaring (지수의 분할 정복)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-exponentiation-by-squaring&quot;&gt;1. Exponentiation by Squaring&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 23 May 2023 17:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/exponentiation-by-squaring</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/exponentiation-by-squaring</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1546번(java)</title>
+        
+          <description>&lt;h2 id=&quot;평균&quot;&gt;평균&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:51:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1546</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1546</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10811번(java)</title>
+        
+          <description>&lt;h2 id=&quot;바구니-뒤집기&quot;&gt;바구니 뒤집기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:49:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10811</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10811</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 3052번(java)</title>
+        
+          <description>&lt;h2 id=&quot;나머지&quot;&gt;나머지&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:44:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b3052</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b3052</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 5597번(java)</title>
+        
+          <description>&lt;h2 id=&quot;과제-안-내신-분&quot;&gt;과제 안 내신 분..?&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:41:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b5597</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b5597</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10813번(java)</title>
+        
+          <description>&lt;h2 id=&quot;공-바꾸기&quot;&gt;공 바꾸기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:39:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10813</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10813</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10810번(java)</title>
+        
+          <description>&lt;h2 id=&quot;공-넣기&quot;&gt;공 넣기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:37:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10810</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10810</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2562번(java)</title>
+        
+          <description>&lt;h2 id=&quot;최소-최대&quot;&gt;최소, 최대&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:35:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2562</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2562</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10818번(java)</title>
+        
+          <description>&lt;h2 id=&quot;최소-최대&quot;&gt;최소, 최대&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:33:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10818</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10818</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10871번(java)</title>
+        
+          <description>&lt;h2 id=&quot;x보다-작은-수&quot;&gt;X보다 작은 수&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:31:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10871</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10871</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10807번(java)</title>
+        
+          <description>&lt;h2 id=&quot;개수-세기&quot;&gt;개수 세기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 23:29:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10807</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10807</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 4344번(java)</title>
+        
+          <description>&lt;h2 id=&quot;평균은-넘겠지&quot;&gt;평균은 넘겠지&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 00:29:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b4344</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b4344</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10812번(java)</title>
+        
+          <description>&lt;h2 id=&quot;바구니-순서-바꾸기&quot;&gt;바구니 순서 바꾸기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 20 May 2023 00:25:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10812</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10812</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10951번(java)</title>
+        
+          <description>&lt;h2 id=&quot;a--b---4&quot;&gt;A + B - 4&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 23:08:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10951</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10951</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10952번(java)</title>
+        
+          <description>&lt;h2 id=&quot;a--b---5&quot;&gt;A + B - 5&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 23:06:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10952</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10952</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2439번(java)</title>
+        
+          <description>&lt;h2 id=&quot;별-찍기---2&quot;&gt;별 찍기 - 2&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 23:02:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2439</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2439</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2438번(java)</title>
+        
+          <description>&lt;h2 id=&quot;별-찍기---1&quot;&gt;별 찍기 - 1&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 23:01:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2438</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2438</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 11022번(java)</title>
+        
+          <description>&lt;h2 id=&quot;a--b---8&quot;&gt;A + B - 8&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 22:59:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b11022</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b11022</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 11021번(java)</title>
+        
+          <description>&lt;h2 id=&quot;a--b---7&quot;&gt;A + B - 7&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 22:57:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b11021</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b11021</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 15552번(java)</title>
+        
+          <description>&lt;h2 id=&quot;빠른-a--b&quot;&gt;빠른 A + B&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 22:55:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b15552</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b15552</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 25314번(java)</title>
+        
+          <description>&lt;h2 id=&quot;코딩은-체육과목입니다&quot;&gt;코딩은 체육과목입니다.&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 22:51:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b25314</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b25314</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 25304번(java)</title>
+        
+          <description>&lt;h2 id=&quot;영수증&quot;&gt;영수증&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 22:46:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b25304</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b25304</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 8393번(java)</title>
+        
+          <description>&lt;h2 id=&quot;합&quot;&gt;합&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 22:44:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b8393</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b8393</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10950번(java)</title>
+        
+          <description>&lt;h2 id=&quot;a--b---3&quot;&gt;A + B - 3&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 22:42:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10950</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10950</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2739번(java)</title>
+        
+          <description>&lt;h2 id=&quot;구구단&quot;&gt;구구단&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 22:40:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2739</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2739</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[알고리즘] 정렬</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-정렬-알고리즘&quot;&gt;1. 정렬 알고리즘&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 May 2023 17:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/sorting-algorithm</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/sorting-algorithm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[알고리즘] 트리</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-트리tree&quot;&gt;1. 트리(Tree)&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 10 May 2023 17:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/tree-data-structure</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/tree-data-structure</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[알고리즘] 선형 데이터</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-배열array&quot;&gt;1. 배열(Array)&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 May 2023 17:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/linear-data-structure</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/linear-data-structure</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2480번(java)</title>
+        
+          <description>&lt;h2 id=&quot;주사위-세개&quot;&gt;주사위 세개&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2023 22:13:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2480</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2480</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2525번(java)</title>
+        
+          <description>&lt;h2 id=&quot;오븐-시계&quot;&gt;오븐 시계&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2023 22:10:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2525</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2525</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2884번(java)</title>
+        
+          <description>&lt;h2 id=&quot;알람-시계&quot;&gt;알람 시계&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2023 22:08:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2884</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2884</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 14681번(java)</title>
+        
+          <description>&lt;h2 id=&quot;사분면-고르기&quot;&gt;사분면 고르기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2023 22:05:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b14681</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b14681</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2753번(java)</title>
+        
+          <description>&lt;h2 id=&quot;윤년&quot;&gt;윤년&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2023 22:03:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2753</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2753</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 9498번(java)</title>
+        
+          <description>&lt;h2 id=&quot;시험-성적&quot;&gt;시험 성적&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2023 22:01:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b9498</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b9498</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1330번(java)</title>
+        
+          <description>&lt;h2 id=&quot;두-수-비교하기&quot;&gt;두 수 비교하기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2023 21:56:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1330</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1330</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[알고리즘] 재귀(Recursion)와 반복(Iteration)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-재귀recursion&quot;&gt;1. 재귀(Recursion)&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 03 May 2023 17:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/Recursion-and-Iteration</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/Recursion-and-Iteration</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[알고리즘] 알고리즘 유형</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-분할-정복-알고리즘divide-and-conquer-algorithm&quot;&gt;1. 분할 정복 알고리즘(Divide and Conquer Algorithm)&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 03 May 2023 14:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/algorithm-category</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/algorithm-category</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[개념] Function(함수)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-function함수&quot;&gt;1. Function(함수)&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 02 May 2023 17:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/Function</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/Function</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10172번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;아래 예제와 같이 개를 출력하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 21:54:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10172</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10172</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10171번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;아래 예제와 같이 고양이를 출력하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 21:53:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10171</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10171</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 11382번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;꼬마 정민이는 이제 A + B 정도는 쉽게 계산할 수 있다. 이제 A + B + C를 계산할 차례이다!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 21:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b11382</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b11382</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2588번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;(세 자리 수) × (세 자리 수)는 다음과 같은 과정을 통하여 이루어진다.&lt;/li&gt;
+  &lt;li&gt;(1)과 (2)위치에 들어갈 세 자리 자연수가 주어질 때 (3), (4), (5), (6)위치에 들어갈 값을 구하는 프로그램을 작성하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 21:27:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2588</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2588</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10430번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;(A+B)%C는 ((A%C) + (B%C))%C 와 같을까?&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:55:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10430</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10430</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 18108번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;ICPC Bangkok Regional에 참가하기 위해 수완나품 국제공항에 막 도착한 팀 레드시프트 일행은 눈을 믿을 수 없었다. 공항의 대형 스크린에 올해가 2562년이라고 적혀 있던 것이었다.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:52:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b18108</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b18108</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10926번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;준하는 사이트에 회원가입을 하다가 joonas라는 아이디가 이미 존재하는 것을 보고 놀랐다. 준하는 놀람을 ??!로 표현한다. 준하가 가입하려고 하는 사이트에 이미 존재하는 아이디가 주어졌을 때, 놀람을 표현하는 프로그램을 작성하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:52:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10926</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10926</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10869번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;두 자연수 A와 B가 주어진다. 이때, A+B, A-B, A*B, A/B(몫), A%B(나머지)를 출력하는 프로그램을 작성하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:48:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10869</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10869</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1008번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;두 정수 A와 B를 입력받은 다음, A/B를 출력하는 프로그램을 작성하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:07:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1008</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1008</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 10998번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;두 정수 A와 B를 입력받은 다음, A×B를 출력하는 프로그램을 작성하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:04:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b10998</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b10998</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1001번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;두 정수 A와 B를 입력받은 다음, A-B를 출력하는 프로그램을 작성하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:01:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1001</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1001</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 1000번(java)</title>
+        
+          <description>&lt;h4 id=&quot;문제&quot;&gt;문제&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:01:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b1000</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b1000</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[백준] 2557번(java)</title>
+        
+          <description>&lt;h4 id=&quot;풀이&quot;&gt;풀이&lt;/h4&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Apr 2023 18:00:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/b2557</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/b2557</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[스프링] IOC(Inversion of Control)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-iocinversion-of-control&quot;&gt;1. IOC(Inversion of Control)&lt;/h2&gt;
+&lt;p&gt;IOC(Inversion of Control)는 스프링(Spring) 프레임워크에서 사용되는 핵심 개념 중 하나입니다. IOC는 제어의 역전이라고도 불리며, 객체의 생성과 관리를 개발자가 아닌 프레임워크가 담당하는 것을 의미합니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 20 Apr 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/ioc</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/ioc</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[스프링] 주요 Annotation</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-service&quot;&gt;1. @Service&lt;/h2&gt;
+&lt;p&gt;‘@Service’ 어노테이션은 비즈니스 로직을 처리하는 서비스(Service) 클래스에 적용됩니다. 주로 비즈니스 로직을 수행하고, 트랜잭션 관리, 데이터 가공, 외부 시스템과의 통합 등을 담당합니다. ‘@Service’ 어노테이션이 지정된 클래스는 스프링의 컴포넌트 스캔에 의해 스프링 컨테이너에 빈(Bean)으로 등록됩니다. 이를 통해 해당 클래스의 인스턴스는 스프링에서 관리되며, 의존성 주입(DI)을 받을 수 있습니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 15 Apr 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/spring_annotation</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/spring_annotation</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[스프링] DI(Dependency Injection)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-didependency-injection&quot;&gt;1. DI(Dependency Injection)&lt;/h2&gt;
+&lt;p&gt;DI(Dependency Injection)는 객체 지향 프로그래밍에서 사용되는 설계 원칙 중 하나입니다. DI는 객체 간의 의존성을 외부에서 주입하는 방식으로, 객체를 생성하거나 관리하지 않고, 의존성을 외부에서 받아와 사용하는 것을 의미합니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 04 Apr 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/di</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/di</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] 람다(Lambda)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-람다-lambda&quot;&gt;1. 람다 (Lambda)&lt;/h2&gt;
+&lt;p&gt;자바에서 람다식은 함수형 프로그래밍 스타일을 지원하기 위해 JDK 8부터 도입된 기능입니다. 람다식은 익명 함수(Anonymous Function)를 간결하게 표현하는 방법입니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 20 Mar 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/lambda</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/lambda</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] 인터페이스(Interface)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-인터페이스-interface&quot;&gt;1. 인터페이스 (Interface)&lt;/h2&gt;
+&lt;p&gt;인터페이스는 추상화된 타입을 정의하는 역할을 합니다. 인터페이스는 메서드 시그니처(메서드의 이름, 매개변수, 변환 타입)를 선언하고, 구현체 클래스에서 이러한 메서드를 구현하도록 요구합니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 20 Mar 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/interface</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/interface</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] Thread(쓰레드)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-thread&quot;&gt;1. Thread&lt;/h2&gt;
+&lt;p&gt;쓰레드(Thread)는 프로세스 내에서 실행되는 독립적인 실행 단위로, 프로그램의 흐름을 제어하는 기본적인 개념입니다. 즉, 쓰레드는 프로세스 안에서 작업을 수행하는 단위로서, 하나의 프로세스에느 여러 개의 쓰레드가 동시에 실행될 수 있습니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 15 Mar 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/thread</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/thread</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] 접근 지정자와 키워드</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-접근-지정자-access-modifiers&quot;&gt;1. 접근 지정자 (Access Modifiers)&lt;/h2&gt;
+&lt;p&gt;접근 지정자(Access Modifiers)는 클래스의 멤버(변수, 메서드, 생성자)에 대한 접근 권한을 제어하는 키워드입니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 15 Mar 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/accessmodifiers-keyword</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/accessmodifiers-keyword</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] Overloading 과 Overriding</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-overloading&quot;&gt;1. Overloading&lt;/h2&gt;
+&lt;p&gt;Overloading은 동일한 이름을 가진 메서드나 생성자를 여러 개 정의하는 것을 말한다. 오버로딩은 다양한 매개변수 조합에 대해 메서드의 동작을 정의하고 유연성을 제공하는데 사용된다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 12 Mar 2023 12:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/overloading-overriding</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/overloading-overriding</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] StringBuilder 와 StringBuffer</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-stringbuilder&quot;&gt;1. StringBuilder&lt;/h2&gt;
+&lt;p&gt;StringBuilder는 Java에서 문자열을 동적으로 변경하기 위한 클래스다. 문자열 연결이나 변경 작업이 필요한 경우, 일반적으로 문자열 직접 변경하면 새로운 문자열을 생성해야 하기 때문에 성능상의 이슈가 발생할 수 있다. 이 때 StringBuilder를 사용하면 문자열을 효율적으로 조작할 수 있다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Mar 2023 02:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/stringbuilder-stringbuffer</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/stringbuilder-stringbuffer</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] Stream</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-stream이란&quot;&gt;1. Stream이란&lt;/h2&gt;
+&lt;p&gt;컴퓨터 과학 및 정보 기술에서 사용되는 용어로, 데이터의 연속적인 흐름이나 시퀀스를 가리킨다. 일반적으로 데이터 스트림은 네트워크 통신, 파일 입출력, 센서 데이터 등 다양한 소스에서 나온 데이터를 의미한다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Mar 2023 02:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/stream</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/stream</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] Lombok</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-lombok-이란&quot;&gt;1. Lombok 이란&lt;/h2&gt;
+&lt;p&gt;롬복(Lombok)은 Java 개발자들이 일상적으로 작성해야 하는 반복적인 코드를 줄여주는 Java 라이브러리다. 롬복은 자바 어노테이션을 기반으로 동작하며, 컴파일 시점에서 소스 코드를 분석하여 자동으로 Getter, Setter, 생성자, toString 메서드 등을 생성해준다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Mar 2023 01:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/lombok</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/lombok</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] JVM</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-jvm이란-무엇인가&quot;&gt;1. JVM이란 무엇인가&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 06 Mar 2023 01:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/jvm</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/jvm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[자바] JAVA란?</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-자바java란-무엇인가&quot;&gt;1. 자바(JAVA)란 무엇인가?&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 05 Mar 2023 01:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/java_basic</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/java_basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python Posting 테스트2입니다.</title>
+        
+          <description>&lt;p&gt;python 테스트2입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 02 Mar 2023 12:41:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/python_control_statement</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/python_control_statement</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python Posting 테스트입니다.</title>
+        
+          <description>&lt;p&gt;python 테스트입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 01 Mar 2023 01:30:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/python_basic</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/python_basic</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

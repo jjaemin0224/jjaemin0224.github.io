@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://jjaemin0224.github.io/tag/spring/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jjaemin0224.github.io/" rel="alternate" type="text/html" />
+  <updated>2023-07-06T20:40:56+09:00</updated>
+  <id>https://jjaemin0224.github.io/tag/spring/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Jaemin’s BLOG | </title>
+  
+
+  
+    <subtitle>The only limit is your mind.</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">[스프링] IOC(Inversion of Control)</title>
+      <link href="https://jjaemin0224.github.io/ioc" rel="alternate" type="text/html" title="[스프링] IOC(Inversion of Control)" />
+      <published>2023-04-20T12:30:00+09:00</published>
+      <updated>2023-04-20T12:30:00+09:00</updated>
+      <id>https://jjaemin0224.github.io/ioc</id>
+      <content type="html" xml:base="https://jjaemin0224.github.io/ioc">&lt;hr /&gt;
+&lt;h2 id=&quot;1-iocinversion-of-control&quot;&gt;1. IOC(Inversion of Control)&lt;/h2&gt;
+&lt;p&gt;IOC(Inversion of Control)는 스프링(Spring) 프레임워크에서 사용되는 핵심 개념 중 하나입니다. IOC는 제어의 역전이라고도 불리며, 객체의 생성과 관리를 개발자가 아닌 프레임워크가 담당하는 것을 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;기존의 프로그래밍 모델에서는 개발자가 객체의 생성과 의존성 관리를 직접 수행했습니다. 하지만 IOC를 사용하는 경우, 개발자는 객체를 직접 생성하고 관리하지 않으며, 스프링 컨테이너가 객체의 생명주기와 의존성 주입을 담당합니다. 이를 통해 개발자는 비즈니스 로직에 집중할 수 있으며, 객체 간의 의존성과 관리를 외부로 위임할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;IOC는 스프링의 핵심 개념으로, 애플리케이션의 구조와 유연성을 개선하고 개발 생산성을 향상시킵니다. 의존성 주입을 통해 객체 간의 결합도를 낮추고, 스프링 컨테이너가 객체의 생명주기와 의존성 관리를 자동으로 처리함으로써 개발자는 핵심 비즈니스&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-ioc의-핵심-원리&quot;&gt;2. IOC의 핵심 원리&lt;/h2&gt;
+&lt;h4 id=&quot;2-1-의존성-주입dependency-injectiondi&quot;&gt;2-1. 의존성 주입(Dependency Injection:DI)&lt;/h4&gt;
+&lt;p&gt;IOC는 의존성 주입을 통해 객체 간의 의존성을 관리합니다. 개발자가 객체를 생성하는 대신, 스프링 컨테이너가 객체를 생성하고 필요한 의존성을 주입합니다. 이를 통해 객체 간의 결합도를 낮출 수 있고, 유연하고 재사용 가능한 구조를 유지할 수 있습니다.&lt;/p&gt;
+&lt;h4 id=&quot;2-2-스프링-컨테이너&quot;&gt;2-2. 스프링 컨테이너&lt;/h4&gt;
+&lt;p&gt;스프링은 IOC를 구현하기 위해 컨테이너를 제공합니다. 스프링 컨테이너는 객체의 생명주기를 관리하고, 객체를 생성하고 의존성을 주입합니다. 개발자는 스프링 컨테이너를 설정하고 필요한 객체를 요청하는 방식으로 개발을 진행합니다.&lt;/p&gt;
+&lt;h4 id=&quot;2-3-설정-파일-또는-어노테이션&quot;&gt;2-3. 설정 파일 또는 어노테이션&lt;/h4&gt;
+&lt;p&gt;IOC를 사용하기 위해서는 객체와 의존성을 정의하는 방법이 필요합니다. 스프링에서는 XML 설정 파일이나 어노테이션을 사용하여 객체와 의존성을 정의할 수 있습니다. 이를 통해 스프링 컨테이너가 필요한 객체를 인식하고 관리할 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jjaemin0224</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="spring" />
+      
+
+      
+        <summary type="html">1. IOC(Inversion of Control) IOC(Inversion of Control)는 스프링(Spring) 프레임워크에서 사용되는 핵심 개념 중 하나입니다. IOC는 제어의 역전이라고도 불리며, 객체의 생성과 관리를 개발자가 아닌 프레임워크가 담당하는 것을 의미합니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">[스프링] 주요 Annotation</title>
+      <link href="https://jjaemin0224.github.io/spring_annotation" rel="alternate" type="text/html" title="[스프링] 주요 Annotation" />
+      <published>2023-04-15T12:30:00+09:00</published>
+      <updated>2023-04-15T12:30:00+09:00</updated>
+      <id>https://jjaemin0224.github.io/spring_annotation</id>
+      <content type="html" xml:base="https://jjaemin0224.github.io/spring_annotation">&lt;hr /&gt;
+&lt;h2 id=&quot;1-service&quot;&gt;1. @Service&lt;/h2&gt;
+&lt;p&gt;‘@Service’ 어노테이션은 비즈니스 로직을 처리하는 서비스(Service) 클래스에 적용됩니다. 주로 비즈니스 로직을 수행하고, 트랜잭션 관리, 데이터 가공, 외부 시스템과의 통합 등을 담당합니다. ‘@Service’ 어노테이션이 지정된 클래스는 스프링의 컴포넌트 스캔에 의해 스프링 컨테이너에 빈(Bean)으로 등록됩니다. 이를 통해 해당 클래스의 인스턴스는 스프링에서 관리되며, 의존성 주입(DI)을 받을 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-controller&quot;&gt;2. @Controller&lt;/h2&gt;
+&lt;p&gt;‘@Controller’ 어노테이션은 스프링 MVC에서 웹 요청을 처리하는 컨트롤러(Controller) 클래스에 적용됩니다. 컨트롤러는 클라이언트의 요청을 처리하고, 비즈니스 로직의 호출과 결과를 반환하는 역할을 담당합니다. ‘@Controller’ 어노테이션이 지정된 클래스는 스프링의 컴포넌트 스캔에 의해 스프링 컨테이너에 빈으로 등록되며, 스프링 MVC에서 요청을 처리하기 위해 사용됩니다. 주로 웹 애플리케이션 개발에서 사용됩니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;3-repository&quot;&gt;3. @Repository&lt;/h2&gt;
+&lt;p&gt;‘@Repository’ 어노테이션은 데이터 액세스 계층에서 데이터에 접근하는 리포지토리(Repository) 클래스에 적용됩니다. 리포지토리 클래스는 데이터베이스나 다른 영속성 저장소와의 상호 작용을 처리합니다. ‘@Repository’ 어노테이션이 지정된 클래스는 스프링의 컴포넌트 스캔에 의해 스프링 컨테이너에 빈으로 등록되며, 데이터 액세스를 담당하는 다양한 기능과 예외 변환 등을 제공합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;4-comment&quot;&gt;4. Comment&lt;/h2&gt;
+&lt;p&gt;이 세 가지 어노테이션은 모두 스프링의 컴포넌트 스캔에 의해 스프링 컨테이너에 빈으로 등록되는 역할을 수행하며, 의존성 주입(Dependency Injection)을 받을 수 있습니다. 주로 역할과 책임에 따라 클래스를 구분하고, 관심사의 분리를 위해 사용됩니다. 그러나 어노테이션의 이름 자체에는 특별한 의미가 없으며, 스프링에서는 어노테이션의 이름을 통해 특정 기능이 자동으로 활성화되지는 않습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jjaemin0224</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="spring" />
+      
+
+      
+        <summary type="html">1. @Service ‘@Service’ 어노테이션은 비즈니스 로직을 처리하는 서비스(Service) 클래스에 적용됩니다. 주로 비즈니스 로직을 수행하고, 트랜잭션 관리, 데이터 가공, 외부 시스템과의 통합 등을 담당합니다. ‘@Service’ 어노테이션이 지정된 클래스는 스프링의 컴포넌트 스캔에 의해 스프링 컨테이너에 빈(Bean)으로 등록됩니다. 이를 통해 해당 클래스의 인스턴스는 스프링에서 관리되며, 의존성 주입(DI)을 받을 수 있습니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">[스프링] DI(Dependency Injection)</title>
+      <link href="https://jjaemin0224.github.io/di" rel="alternate" type="text/html" title="[스프링] DI(Dependency Injection)" />
+      <published>2023-04-04T12:30:00+09:00</published>
+      <updated>2023-04-04T12:30:00+09:00</updated>
+      <id>https://jjaemin0224.github.io/di</id>
+      <content type="html" xml:base="https://jjaemin0224.github.io/di">&lt;hr /&gt;
+&lt;h2 id=&quot;1-didependency-injection&quot;&gt;1. DI(Dependency Injection)&lt;/h2&gt;
+&lt;p&gt;DI(Dependency Injection)는 객체 지향 프로그래밍에서 사용되는 설계 원칙 중 하나입니다. DI는 객체 간의 의존성을 외부에서 주입하는 방식으로, 객체를 생성하거나 관리하지 않고, 의존성을 외부에서 받아와 사용하는 것을 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;DI는 스프링(Spring)과 같은 프레임워크에서 많이 사용되는 개념으로, 의존성 주입을 자동으로 처리해주는 컨테이너를 제공합니다. 이를 통해 개발자는 의존성 주입에 집중하지 않고도 객체를 개발하고 관리할 수 있습니다. 스프링은 DI를 통해 애플리케이션의 유연성과 확장성을 향상시키며, 객체의 생명주기와 의존성 관리를 자동화하는 기능을 제공합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-di의-장점&quot;&gt;2. DI의 장점&lt;/h2&gt;
+&lt;h4 id=&quot;2-1-느슨한-결합loose-coupling&quot;&gt;2-1. 느슨한 결합(Loose Coupling)&lt;/h4&gt;
+&lt;p&gt;DI를 사용하면 객체 간의 결합도가 낮아집니다. 의존성을 주입받는 방식으로 객체를 생성하므로, 객체 간의 의존성이 명시적으로 드러나게 되며, 객체 간의 결합도가 감소합니다. 이로써 변경이 필요한 부분에 대해 영향 범위가 줄어들어 유지보수가 용이해집니다.&lt;/p&gt;
+&lt;h4 id=&quot;2-2-테스트-용이성&quot;&gt;2-2. 테스트 용이성&lt;/h4&gt;
+&lt;p&gt;DI를 통해 의존성을 주입받는 경우, 테스트 시에 모의 객체(Mock Object)를 주입하여 의존성 있는 코드를 테스트할 수 있습니다. 이는 의존하는 객체를 직접 생성하지 않고 외부에서 주입받기 때문에 테스트 환경에서 유연성을 제공합니다.&lt;/p&gt;
+&lt;h4 id=&quot;2-3-의존성의-중앙-관리&quot;&gt;2-3. 의존성의 중앙 관리&lt;/h4&gt;
+&lt;p&gt;DI를 사용하면 의존성을 관리하기 쉽습니다. 의존성을 주입받는 객체는 의존하는 객체를 직접 생성하거나 관리하지 않으므로, 의존성의 생성과 관리를 중앙화할 수 있습니다. 이를 통해 객체의 생명주기와 의존성 관리를 외부에서 담당할 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jjaemin0224</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="spring" />
+      
+
+      
+        <summary type="html">1. DI(Dependency Injection) DI(Dependency Injection)는 객체 지향 프로그래밍에서 사용되는 설계 원칙 중 하나입니다. DI는 객체 간의 의존성을 외부에서 주입하는 방식으로, 객체를 생성하거나 관리하지 않고, 의존성을 외부에서 받아와 사용하는 것을 의미합니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
