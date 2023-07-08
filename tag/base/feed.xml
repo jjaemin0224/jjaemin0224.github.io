@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jjaemin0224.github.io/tag/base/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jjaemin0224.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-07-06T20:40:56+09:00</updated>
+  <updated>2023-07-08T18:41:52+09:00</updated>
   <id>https://jjaemin0224.github.io/tag/base/feed.xml</id>
 
   
@@ -30,6 +30,365 @@
   
   
 
+  
+    <entry>
+      <title type="html">[개념] 고프 디자인 패턴(GoF Design Pattern)</title>
+      <link href="https://jjaemin0224.github.io/GoF-design-pattern" rel="alternate" type="text/html" title="[개념] 고프 디자인 패턴(GoF Design Pattern)" />
+      <published>2023-07-07T17:55:00+09:00</published>
+      <updated>2023-07-07T17:55:00+09:00</updated>
+      <id>https://jjaemin0224.github.io/GoF%20design%20pattern</id>
+      <content type="html" xml:base="https://jjaemin0224.github.io/GoF-design-pattern">&lt;hr /&gt;
+&lt;h2 id=&quot;1-gof-design-pattern&quot;&gt;1. GoF Design Pattern&lt;/h2&gt;
+&lt;p&gt;고프 디자인 패턴(GoF Design Patterns)은 &lt;em&gt;“Design Patterns : Elements of Resusable Object-Oriented Software”&lt;/em&gt;라는 책에서 소개된 23가지 소프트웨어 디자인 패턴의 잡합을 가리키는 용어입니다. 이 책은 &lt;em&gt;에리히 감마, 리처드 헬름, 랄프 존슨, 존 블리시디스&lt;/em&gt;라는 저자들에 의해 쓰여진 것으로, 소프트웨어 개발에서 자주 발생하는 문제를 해결하기 위한 열련의 설계 아이디어와 방법을 제시합니다.&lt;/p&gt;
+
+&lt;p&gt;디자인 패턴은 소프트웨어 개발자들이 재사용 가능하고 유연한 소프트웨어 시스템을 설계하는 데 도움이 됩니다. 각 패턴은 특정한 설계 문제를 해결하기 위한 구조와 상호작용 방식을 제공하며, 코드의 가독성과 재사용성을 향상시키고 유지보수를 용이하게 만듭니다.&lt;/p&gt;
+
+&lt;p&gt;GoF 디자인 패턴은 크게 세 가지 카테고리로 나눌 수 있습니다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;mark&gt;생성 패턴(Creational Pattern)&lt;/mark&gt; : 객체의 생성과 관련된 패턴으로, 객체 생성을 추상화하고 유연성을 제공합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;구조 패턴(Structural Pattern)&lt;/mark&gt; : 클래스와 객체를 조합하여 더 큰 구조를 형성하는 패턴으로, 객체 간의 관계를 정의하고 구성합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;행위 패턴(Behavioral Pattern)&lt;/mark&gt; : 객체 간의 상호작용과 책임 분배에 관련된 패턴으로, 알고리즘의 분리, 객체 간의 통신, 이벤트 처리 등을 다룹니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-생성-패턴&quot;&gt;2. 생성 패턴&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;싱글톤(Singleton) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 클래스의 인스턴스를 하나만 생성하고, 이를 전역적으로 접근 가능하게 합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 생성자를 private로 선언하여 직접적인 인스턴스화를 방지하고, 정적 메서드를 통해 유일한 인스턴스에 접근할 수 있게 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;팩토리 메서드(Factory Method) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체 생성을 캡슐화하고, 객체의 생성 방식에 대한 유연성을 제공합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 인터페이스를 정의하고, 서브클래스에서 해당 인터페이스를 구현하여 객체를 생성합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;추상 팩토리(Abstract Factory) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 관련된 객체들의 생성을 추상화하고, 객체 그룹을 교체 가능하게 합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 추상 팩토리 인터페이스를 정의하고, 구체적인 팩토리 클래스에서 해당 인터페이스를 구현하여 연관된 객체들을 생성합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;빌더(Builder) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 복잡한 객체의 생성 과정을 추상화하고, 객체 생성 단계를 분리하여 유연하게 객체를 생성합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 빌더 인터페이스를 정의하고, 빌더 클래스를 사용하여 객체의 생성 과정을 조립합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;프로토타입(Prototype) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체를 복제하여 생성하고, 기존 객체의 상태를 복사하여 새로운 객체를 생성합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 객체가 자기 자신을 복제할 수 있는 Clone 메서드를 구현합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;생성 패턴은 객체 생성을 다루는 디자인 패턴입니다. 이러한 패턴은 객체의 생성과 초기화를 추상화하고 유연성을 제공하여 객체 생성에 관련된 복잡성을 해결합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;3-구조-패턴&quot;&gt;3. 구조 패턴&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;어댑터(Adapter) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 호환되지 않는 인터페이스를 가진 클래스들을 함께 동작할 수 있게 맞추어줍니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 어댑터 클래스를 사용하여 클라이언트와 타깃 클래스 간의 인터페이스를 변환합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;브릿지(Bridge) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 추상화와 구현부를 분리하여 각각 독립적으로 확장할 수 있게 합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 추상화와 구현부를 각각 클래스로 분리하고, 다리 역할의 인터페이스를 통해 서로 연결합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;컴포지트(Composite) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체들을 트리 구조로 구성하여 단일 객체와 객체 그룹을 동일하게 다룰 수 있게 합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 객체들을 컴포지트 객체와 리프(leaf) 객체로 구분하고, 컴포지트 객체는 하위 객체들을 관리합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;데코레이터(Decorator) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체의 기능을 동적으로 확장하거나 변경합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 데코레이터 클래스를 사용하여 객체에 추가적인 기능을 런타임에 덧붙입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;퍼사드(Facade) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 복잡한 서브시스템을 단순화하여 클라이언트에게 단일 인터페이스를 제공합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 퍼사드 클래스를 사용하여 서브시스템의 인터페이스를 감싸고, 클라이언트에게 단순한 인터페이스를 제공합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;플라이웨이트(Flyweight) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체들 사이의 공유 가능한 데이터를 최대한 활용하여 메모리 사용을 최적화합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 객체들을 내부적으로 공유하여 중복 데이터를 최소합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;프록시(Proxy) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 접근 제어, 보안, 원격 호출 등을 위한 대리자 객체를 제공합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 프록시 객체를 사용하여 원본 객체에 대한 접근을 제어하고 추가 기능을 제공합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;구조 패턴은 객체들 사이의 구조와 관계를 조직화하고, 이를 통해 유연하고 효율적인 소프트웨어 설계를 돕는 디자인 패턴입니다. 이러한 패턴은 클래스와 객체를 조합하여 더 큰 구조를 형성하고, 객체 간의 상호작용을 간소화하는 방법을 제공합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;4-행위-패턴&quot;&gt;4. 행위 패턴&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;책임 연쇄(Chain of Responsibility) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 요청을 처리하는 객체들의 연결된 체인을 구성하여 처리할 수 있는 객체를 찾고, 요청을 처리합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 각 처리 객체는 요청을 처리할 수 있는지 확인하고, 처리할 수 없는 경우 다음 처리 객체로 전달합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;커맨드(Command) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 요청을 객체의 형태로 캡슐화하고, 요청을 매개변수화하여 연산의 실행을 요청자와 수신자 사이에 분리합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 커맨드 객체는 요청을 수신자에게 전달하고, 수신자는 요청을 실행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;인터프리터(Interpreter) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 언어나 문법을 해석하고, 이를 실행하기 위한 인터프리터를 구현합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 문법 요소를 표현하는 클래스들을 정의하고, 인터프리터가 문법을 해석하고 실행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;이터레이터(Iterator) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 컬렉션 내부의 요소를 순차적으로 접근하고 조작하는 방법을 제공합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 이터레이터 객체를 사용하여 컬렉션의 요소에 접근하고, 다음 요소로 이동합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;중재자(Mediator) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체들 사이의 상호작용을 캡슐화하여 객체 간의 직접적인 상호작용을 피하고, 중재자를 통해 상호작용하도록 합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 중재자 객체는 객체들 간의 상호작용을 조정하고, 객체들은 중재자를 통해 상호작용합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;옵서버(Observer) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체 사이에 일대다 종속 관계를 정의하여, 객체의 상태 변화를 다른 객체에 자동으로 알립니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 주제(subject) 객체는 옵서버(observer) 객체들의 목록을 유지하고, 상태 변화가 있을 때 옵서버들에게 알립니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;상태(State) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체의 내부 상태에 따라 동작을 변경하고, 객체의 상태 전이를 관리합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 상태 객체들을 정의하고, 객체는 현재 상태에 따라 행동을 수행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;전략(Strategy) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 알고리즘을 캡슐화하고, 동적으로 알고리즘을 교체할 수 있게 합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 전략 객체를 정의하고, 컨텍스트 객체는 전략 객체를 사용하여 특정 알고리즘을 실행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;템플릿 메서드(Template Method) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 알고리즘의 구조를 정의하고, 일부 단계를 서브클래스에서 구현할 수 있게 합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 추상 클래스에서 알고리즘의 구조를 정의하고, 서브클래스에서 특정 단계를 구현합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;방문자(Visitor) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체의 구조와 기능을 분리하여 새로운 기능을 추가할 수 있게 합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 방문자 객체는 객체 구조를 순회하면서 특정 기능을 수행하고, 각 객체는 방문자를 받아들입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;메멘토(Memento) 패턴&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;목적 : 객체의 상태를 저장하고 이전 상태로 복원할 수 있는 방법을 제공합니다.&lt;/li&gt;
+      &lt;li&gt;구현 : 오리진터 객체는 상태를 저장하고 복원하는 메멘토 객체를 생성하고 사용합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;행위 패턴은 객체들 간의 상호작용과 책임 분배에 관련된 디자인 패턴입니다. 이러한 패턴은 객체들이 어떻게 상호작용하고 정보를 교환하며, 책임을 분산시키는 방법을 제공하여 소프트웨어 시스템을 유연하게 만듭니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jjaemin0224</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="base" />
+      
+
+      
+        <summary type="html">1. GoF Design Pattern 고프 디자인 패턴(GoF Design Patterns)은 “Design Patterns : Elements of Resusable Object-Oriented Software”라는 책에서 소개된 23가지 소프트웨어 디자인 패턴의 잡합을 가리키는 용어입니다. 이 책은 에리히 감마, 리처드 헬름, 랄프 존슨, 존 블리시디스라는 저자들에 의해 쓰여진 것으로, 소프트웨어 개발에서 자주 발생하는 문제를 해결하기 위한 열련의 설계 아이디어와 방법을 제시합니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">[개념] API</title>
+      <link href="https://jjaemin0224.github.io/API" rel="alternate" type="text/html" title="[개념] API" />
+      <published>2023-07-02T15:42:00+09:00</published>
+      <updated>2023-07-02T15:42:00+09:00</updated>
+      <id>https://jjaemin0224.github.io/API</id>
+      <content type="html" xml:base="https://jjaemin0224.github.io/API">&lt;hr /&gt;
+&lt;h2 id=&quot;1-api&quot;&gt;1. API&lt;/h2&gt;
+&lt;p&gt;&lt;mark&gt;API(Application Programming Interface)&lt;/mark&gt;는 애플리케이션들이, &lt;u&gt;서로 상호작용하기 위해 정의된 규칙과 프로토콜의 집합&lt;/u&gt;입니다. 간단히 말하면, &lt;u&gt;소프트웨어 컴포넌트들 간의 통신을 위한 인터페이스&lt;/u&gt;입니다.&lt;/p&gt;
+
+&lt;p&gt;API는 다른 애플리케이션에게 기능을 제공하거나 데이터를 공유하기 위해 사용됩니다. 애플리케이션은 API를 통해 요청을 보내고 응답을 받음으로써 서로의 기능을 활용할 수 있습니다. API는 데이터를 가져오기, 전송하기, 조작하기, 외부 서비스와 통신하기 등 다양한 작업업을 수행할 수 있도록 해줍니다.&lt;/p&gt;
+
+&lt;p&gt;API는 일반적으로 웹 개발에서 자주 사용되며, 웹 API 또는 웹 서비스라고도 불립니다. 웹 API는 웹 기술을 사용하여 데이터를 전송하고 통신하는 데에 특화되어 있습니다. 일반적으로 JSON 또는 XML 형식의 데이터를 주고받는 RESTful API가 많이 사용됩니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-기능&quot;&gt;2. 기능&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;mark&gt;데이터 요청&lt;/mark&gt; &lt;br /&gt;
+ API를 통해 외부 데이터를 요청할 수 있습니다. 예를 들어, 날씨 정보, 주식 가격, 사용자 정보 등의 데이터를 API를 통해 가져올 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;데이터 제공&lt;/mark&gt; &lt;br /&gt;
+ 애플리케이션은 API를 통해 데이터를 제공할 수 있습니다. 다른 애플리케이션에서 데이터를 가져와 활용하거나 공유할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;서비스 호출&lt;/mark&gt; &lt;br /&gt;
+ 외부 서비스나 플랫폼에 대한 요청을 보낼 수 있습니다. 예를 들어, 결제 처리, 이메일 발송, 지도 서비스 등의 서비스를 API를 통해 호출할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;기능 확장&lt;/mark&gt; &lt;br /&gt;
+ 애플리케이션의 기능을 확장하기 위해 외부 서비스의 API를 활용할 수 있습니다. 다른 애플리케이션의 기능을 재사용하여 개발 시간을 단축하고 효율성을 높일 수 있습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;API는 일반적으로 문서화되어 있어서 개발자들이 해당 API를 어떻게 사용해야 하는지 알 수 있습니다 API 문서에는 사용법, 요청/응답 형식, 인증 방법 등이 명시되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;많은 기업과 서비스들이 open API를 제공하여 개발자들이 자신들의 애플리케이션에서 활용할 수 있도록 도와줍니다. API를 사용하면 개발자들은 기능을 쉽게 통합하고 다양한 서비스들과 상호작용할 수 있으며, 애플리케이션의 확장성과 유연성을 향상시킬 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;3-종류&quot;&gt;3. 종류&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;웹 API (Web API)&lt;/mark&gt; &lt;br /&gt;
+ 웹 서비스에서 데이터를 주고받기 위해 사용되는 API입니다. 대부분의 웹 API는 HTTP를 기반으로 동작하며, 데이터를 주고받는 형식으로 주로 JSON 또는 XML을 사용합니다. RESTful API는 가장 흔히 사용되는 웹 API 형식 중 하나입니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;라이브러리 API (Library API)&lt;/mark&gt; &lt;br /&gt;
+ 라이브러리는 특정 작업을 수행하기 위한 코드 모음입니다. 라이브러리 API는 해당 라이브러리의 기능을 외부 애플리케이션에서 사용할 수 있도록 제공하는 인터페이스입니다. 개발자는 라이브러리 API를 통해 라이브러리 함수와 클래스를 호출하여 기능을 활용할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;운영체제 API (Operating System API)&lt;/mark&gt; &lt;br /&gt;
+ 운영체제는 컴퓨터 시스템의 하드웨어와 소프트웨어 자원을 관리하고 제어하는 역할을 합니다. 운영체제 API는 개발자가 운영체제의 기능을 활용하여 애플리케이션을 개발할 수 있도록 제공합니다. 예를 들어, 파일 시스템 접근, 네트워크 통신, 프로세스 관리 등을 할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;데이터베이스 API (Database API)&lt;/mark&gt; &lt;br /&gt;
+ 데이터베이스 API는 데이터 베이스 시스템과 상호작용하기 위한 인터페이스를 제공합니다. 데이터베이스에 데이터를 읽고 쓰거나 쿼리를 실행하는 등의 작업을 할 수 있습니다. 일반적으로 데이터베이스 제공업체마다 별도의 API가 제공됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;하드웨어 API (Hardware API)&lt;/mark&gt; &lt;br /&gt;
+ 하드웨어 API는 컴퓨터의 하드웨어 자원과 상호작용하기 위한 인터페이스를 제공합니다. 예를 들어, 그래픽 카드, 센서, 카메라 등과 같은 하드웨어 기능을 제어하고 데이터를 얻을 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;클라우드 API (Cloud API)&lt;/mark&gt; &lt;br /&gt;
+ 클라우드 서비스 제공업체들은 개발자들이 클라우드 환경에서 서비스를 구축하고 관리할 수 있도록 API를 제공합니다. 이러한 API는 가상 서버 생성, 스토리지 관리, 인증 및 사용자 관리, 스케일링 등의 작업을 할 수 있게 해줍니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;소셜 미디어 API (Social Media API)&lt;/mark&gt; &lt;br /&gt;
+ 소셜 미디어 플랫폼들은 개발자들이 자신들의 애플리케이션에서 소셜 미디어 기능을 활용할 수 있도록 API를 제공합니다. 이를 통해 로그인, 프로필 정보 가져오기, 포스팅 등과 같은 기능을 구현할 수 있습니다. 예를 들어, Facebook Graph API, Twitter API 등이 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;각 API는 특정 목적과 용도에 맞게 설계되었으며, 개발자가 해당 API를 사용하여 애플리케이션을 개발하고 다른 시스템과 통신할 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jjaemin0224</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="base" />
+      
+
+      
+        <summary type="html">1. API API(Application Programming Interface)는 애플리케이션들이, 서로 상호작용하기 위해 정의된 규칙과 프로토콜의 집합입니다. 간단히 말하면, 소프트웨어 컴포넌트들 간의 통신을 위한 인터페이스입니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">[개념] 애플리케이션(Application)</title>
+      <link href="https://jjaemin0224.github.io/Application" rel="alternate" type="text/html" title="[개념] 애플리케이션(Application)" />
+      <published>2023-05-04T16:40:00+09:00</published>
+      <updated>2023-05-04T16:40:00+09:00</updated>
+      <id>https://jjaemin0224.github.io/Application</id>
+      <content type="html" xml:base="https://jjaemin0224.github.io/Application">&lt;hr /&gt;
+&lt;h2 id=&quot;1-appication&quot;&gt;1. Appication&lt;/h2&gt;
+&lt;p&gt;애플리케이션은 &lt;mark&gt;소프트웨어 프로그램&lt;/mark&gt;으로, 사용자 또는 시스템의 요구에 따라 &lt;mark&gt;특정 기능을 수행&lt;/mark&gt;하는 프로그램을 말합니다. 일반적으로 애플리케이션은 사용자 인터페이스(UI)를 통해 사용자와 상호작용하며, 데이터를 처리하고 조작하는 기능을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;애플리케이션은 다양한 기술과 도구를 사용하여 개발됩니다. 프로그래밍 언어(Java, Python, JavaScript 등), 프레임워크(React, Angular, Spring 등), 데이터베이스 시스템(MySQL, MongoDB, PostreSQL 등) 등을 활용하여 애플리케이션을 개발하고 구축합니다.&lt;/p&gt;
+
+&lt;p&gt;애플리케이션은 사용자의 요구사항과 목적에 따라 다양한 기능을 제공합니다. 이러한 기능은 데이터 처리, 사용자 인터페이스, 외부 서비스와의 통신, 알고리즘 실행, 보안 및 인증 등을 포함할 수 있습니다. 애플리케이션은 사용자 또는 시스템의 요구에 맞게 효과적이고 효율적으로 동작하도록 설계되어야 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-유형&quot;&gt;2. 유형&lt;/h2&gt;
+&lt;p&gt;애플리케이션은 여러 형태와 유형이 있습니다. 몇 가지 일반적인 애플리케이션 유형은 다음과 같습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;데이크톱 애플리케이션&lt;/mark&gt; &lt;br /&gt;
+ 데스크톱 애플리케이션은 사용자의 개인 컴퓨터 또는 노트북과 같은 로컬 환경에서 실행되는 소프트웨어입니다. 이러한 애플리케이션은 주로 특정 작업을 수행하기 위해 설계되며, 파일 관리, 문서 편집, 그래픽 디자인 등 다양한 분야에 사용됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;모바일 애플리케이션&lt;/mark&gt; &lt;br /&gt;
+ 모바일 애플리케이션은 특정 기능을 수행하거나 정보를 제공하기 위해 설계되며, 게임, 소셜 미디어, 은행 앱, 날씨 앱 등 다양한 종류가 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;웹 애플리케이션&lt;/mark&gt; &lt;br /&gt;
+ 웹 애플리케이션은 웹 브라우저에서 실행되는 소프트웨어입니다. 웹 애플리케이션은 서버와 클라이언트 간의 통신을 통해 데이터를 주고받으며, 사용자 인터페이스는 웹 브라우저를 통해 제공됩니다. 웹 애플리케이션은 온라인 상점, 소셜 미디어 플랫폼, 웹메일 등의 서비스를 제공할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;mark&gt;서버 애플리케이션&lt;/mark&gt; &lt;br /&gt;
+ 서버 애플리케이션은 클라이언트 애플리케이션 또는 다른 서버와의 상호작용을 위해 설계된 소프트웨어입니다. 서버 애플리케이션은 네트워크를 통해 클라이언트 요청을 받아들이고, 데이터 처리, 데이터베이스 접근, 비지니스 로직 실행 등을 수행합니다. 웹 서버, 데이터베이스 서버, API 서버 등이 서버 애플리케이션의 예입니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jjaemin0224</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="base" />
+      
+
+      
+        <summary type="html">1. Appication 애플리케이션은 소프트웨어 프로그램으로, 사용자 또는 시스템의 요구에 따라 특정 기능을 수행하는 프로그램을 말합니다. 일반적으로 애플리케이션은 사용자 인터페이스(UI)를 통해 사용자와 상호작용하며, 데이터를 처리하고 조작하는 기능을 제공합니다.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">[개념] Function(함수)</title>
@@ -132,6 +491,134 @@
 
       
         <summary type="html">1. Function(함수)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">[개념] 프로토콜(protocol)</title>
+      <link href="https://jjaemin0224.github.io/protocol" rel="alternate" type="text/html" title="[개념] 프로토콜(protocol)" />
+      <published>2023-04-12T17:07:00+09:00</published>
+      <updated>2023-04-12T17:07:00+09:00</updated>
+      <id>https://jjaemin0224.github.io/protocol</id>
+      <content type="html" xml:base="https://jjaemin0224.github.io/protocol">&lt;hr /&gt;
+&lt;h2 id=&quot;1-protocol프로토콜&quot;&gt;1. Protocol(프로토콜)&lt;/h2&gt;
+&lt;p&gt;프로토콜은 컴퓨터 네트워크에서 통신을 위해 사용되는 규칙과 협약의 집합을 의미합니다. 이는 송신자와 수신자 간의 데이터 전달과 통신을 원활하게 하기 위해 필요한 규칙, 형식, 규약을 정의하는 것을 말합니다.&lt;/p&gt;
+
+&lt;p&gt;프로토콜은 네트워크에서 데이터를 주고받을 때 데이터의 형식, 전송 방법, 오류 검출 및 복구, 보안 등과 같은 다양한 측면을 포함합니다. 이는 데이터의 송수신을 위한 규칙을 정의하여 데이터를 안전하고 효율적으로 전송할 수 있도록 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-기본-요소&quot;&gt;2. 기본 요소&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;구문(Syntax)&lt;/strong&gt; : 전송하고자 하는 데이터의 형식(Format), 부호화(Coding), 신호 레벨(Signal Level) 등을 규정&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;의미(Semantics)&lt;/strong&gt; : 두 기기 간의 효율적이고 정확한 정보 전송을 위한 협조 사항과 오류 관리를 위한 제어 정보를 규정&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;시간(Timing)&lt;/strong&gt; : 두 기기 간의 통신 속도, 메시지의 순서 제어 등을 규정&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;3-종류&quot;&gt;3. 종류&lt;/h2&gt;
+&lt;p&gt;네트워크 프로토콜은 계층적인 구조로 설계되어 있습니다. 이를 OSI(Open Systems Interconnection) 모델이나 TCP/IP 모델과 같은 프로토콜 스택을 통해 표현합니다. 각 계층은 특정한 역할을 가지고, 상위 계층은 하위 계층의 서비스를 이용하여 데이터를 전송하고, 하위 계층은 상위 계층으로부터 데이터를 받아 전송합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;osi-model&quot;&gt;&lt;mark&gt;OSI Model&lt;/mark&gt;&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;물리 계층(Physical Layer)&lt;/strong&gt; : 데이터를 전기 신호나 빛 신호로 변환하여 물리적인 매체를 통해 전송합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;데이터 링크 계층(Data Link Layer)&lt;/strong&gt; : 물리 계층에서 전송된 데이터를 프레임 단위로 나누고, 에러 검출과 흐름 제어 등의 오류 처리를 수행합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;네트워크 계층(Network Layer)&lt;/strong&gt; : 패킷 전달을 위한 IP 주소 할당, 라우팅, 패킷 전송 및 전송 오류 관리 등을 담당합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;전송 계층(Transport Layer)&lt;/strong&gt; : 데이터의 신뢰성과 흐름 제어를 담당하며, 오류 검출과 복구, 데이터 분할 및 재조립을 수행합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;세션 계층(Session Layer)&lt;/strong&gt; : 통신 세션을 설정, 유지, 종료하고, 다중 사용자 환경에서 동기화와 대화 제어를 수행합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;표현 계층(Presentation Layer)&lt;/strong&gt; : 데이터 형식의 변환, 데이터 압축, 암호화, 인코딩, 문법 검증 등을 수행하여 상호 운영 가능한 형식으로 데이터를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;응용 계층(Application Layer)&lt;/strong&gt; : 최종 사용자가 네트워크를 통해 액세스하는 서비스 및 응용 프로그램을 지원합니다. 웹 브라우저, 이메일, 파일 전송 등 다양한 서비스를 포함합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이러한 계층적인 구조는 각 계층이 서로 독립적으로 동작하고, 필요에 따라 다른 계층과 통신하여 데이터 전송을 가능하게 합니다. 각 계층은 적절한 프로토콜을 사용하여 특정 한 기능을 수행하고, 상위 계층은 하위 계층의 서비스를 이용하여 데이터를 전송하며 네트워크 통신을 구성합니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;계층(Layer)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;프로토콜(Protocol)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;응용(Application)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;HTTP, FTP, SMTP&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;표현(Presentation)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;SSL/TLS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;전송(Transport)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;TCP, UDP&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;네트워크(Network)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;IP, ICMP, ARP&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;데이터 링크(Data Link)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ethernet, PPP&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;물리(Physical)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ethernet, Wi-Fi, Bluetooth&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;4-주요-프로토콜&quot;&gt;4. 주요 프로토콜&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;mark&gt;TCP(Transmission Control Protocol)&lt;/mark&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;TCP는 데이터를 안정적으로 전송하기 위한 연결 지향 프로토콜입니다. TCP는 데이터의 순서와 정확성을 보장하며, 손실된 패킷을 재전송하는 기능을 제공합니다. 이를 통해 신뢰성 있는 데이터 전송을 가능하게 합니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;IP(Internet Protocol)&lt;/mark&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;IP는 네트워크 상에서 컴퓨터 간의 데이터 패킷을 주고받기 위한 프로토콜입니다. IP는 데이터의 송수신 주소를 지정하고 경로 선택을 담당합니다. IP는 데이터를 여러 개의 패킷으로 분할하고, 목적지에 도달하기 위해 경유지를 거쳐 전송합니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;HTTP(Hypertext Transfer Protocol)&lt;/mark&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;HTTP는 웹 서버와 클라이언트 간의 데이터 전송을 위한 프로토콜입니다. HTTP는 웹 브라우저에서 웹 서버로 요청을 보내고, 서버에서 응답을 받아 웹 페이지를 표시하는 데 사용됩니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;SMTP(Simple Mail Transfer Protocol)&lt;/mark&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;SMTP는 이메일 전송을 위한 프로토콜로, 이메일 클라이언트가 이메일 서버로 메일을 전송할 때 사용됩니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;mark&gt;FTP(File Transfer Protocol)&lt;/mark&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;FTP는 파일 전송을 위한 프로토콜로, 클라이언트가 서버로 파일을 전송하거나 서버로부터 파일을 다운로드할 때 사용됩니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jjaemin0224</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="base" />
+      
+
+      
+        <summary type="html">1. Protocol(프로토콜) 프로토콜은 컴퓨터 네트워크에서 통신을 위해 사용되는 규칙과 협약의 집합을 의미합니다. 이는 송신자와 수신자 간의 데이터 전달과 통신을 원활하게 하기 위해 필요한 규칙, 형식, 규약을 정의하는 것을 말합니다.</summary>
       
 
       
