@@ -179,6 +179,56 @@
     
       
       <item>
+        <title>[개념] OPP(객체 지향 프로그래밍)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-oop&quot;&gt;1. OOP&lt;/h2&gt;
+&lt;p&gt;OPP는 Object-Oriented Programming의 약자입니다. 객체 지향 프로그래밍은 컴퓨터 프로그래밍의 패러다임 중 하나로, 프로그램을 독집적인 객체로 구성하여 문제를 해결하는 방법을 제공합니다. 객체는 데이터와 그 데이터를 처리하는 함수(메서드)로 구성되며, 상호작용하면서 원하는 기능을 수행할 수 있습니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 27 Jun 2023 18:57:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/OPP</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/OPP</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[개념] 프로그래밍 패러다임</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;프로그래밍-패러다임&quot;&gt;프로그래밍 패러다임&lt;/h2&gt;
+&lt;p&gt;프로그래밍 패러다임(Programming Paradigm)은 프로그램을 수행하는 방식과 접근 방법을 기술하는 개념입니다. 언어와는 별개로, 프로갬의 구조와 작성 방법을 결정하는 원리와 철학을 의미합니다. 다양한 프로그래밍 패러다임은 다른 문제 해결 방식과 코드의 구조를 제공하며, 특정한 상황이나 요구사항에 적합한 패러다임을 선택할 수 있습니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Jun 2023 13:14:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/programming-paradigm</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/programming-paradigm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>[알고리즘] DFS(깊이 우선 탐색)</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h2 id=&quot;1-dfs&quot;&gt;1. DFS&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 23 Jun 2023 20:06:00 +0900</pubDate>
+        <link>
+        https://jjaemin0224.github.io/DFS</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/DFS</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>[백준] 2581번(java)</title>
         
           <description>&lt;h2 id=&quot;소수&quot;&gt;소수&lt;/h2&gt;
@@ -278,8 +328,8 @@
         
         <pubDate>Thu, 22 Jun 2023 13:30:00 +0900</pubDate>
         <link>
-        https://jjaemin0224.github.io/bfs</link>
-        <guid isPermaLink="true">https://jjaemin0224.github.io/bfs</guid>
+        https://jjaemin0224.github.io/BFS</link>
+        <guid isPermaLink="true">https://jjaemin0224.github.io/BFS</guid>
       </item>
       
     

@@ -11,7 +11,7 @@
 
 
 
-    <title>[알고리즘] 재귀(Recursion)와 반복(Iteration)</title>
+    <title>[알고리즘] DFS(깊이 우선 탐색)</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -47,24 +47,24 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="The only limit is your mind." />
     <link rel="shortcut icon" href="https://jjaemin0224.github.io/assets/images/blog/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://jjaemin0224.github.io/Recursion-and-Iteration" />
+    <link rel="canonical" href="https://jjaemin0224.github.io/DFS" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Jaemin's BLOG" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="[알고리즘] 재귀(Recursion)와 반복(Iteration)" />
-    <meta property="og:description" content="1. 재귀(Recursion) 1-1. 개념 재귀는 함수나 알고리즘 내에서 자기 자신을 호출하는 것을 의미합니다. 재귀는 주어진 문제를 작은 부분 문제로 나누고, 작은 부분 문제를 해결하기 위해 동일한 함수를 다시 호출하여 해결하는 방식입니다. 재귀 함수는 보통 재귀 호출을 멈출 수 있는 종료 조건(base case)을 포함하고 있어야 합니다. 1-2. 특징 문제를 더 작은" />
-    <meta property="og:url" content="https://jjaemin0224.github.io/Recursion-and-Iteration" />
+    <meta property="og:title" content="[알고리즘] DFS(깊이 우선 탐색)" />
+    <meta property="og:description" content="1. DFS DFS(Depth-First Search, 깊이 우선 탐색)은 그래프에서 사용되는 탐색 알고리즘 중 하나입니다. 이 알고리즘은 그래프의 깊은 기분을 우선적으로 탐색하는 방식으로 동작합니다. DFS는 스택(Stack) 자료구조를 활용하거나 재귀적인 호출을 통해 구현할 수 있습니다. DFS의 동작 과정은 다음과 같습니다: 시작 노드를 방문하고 방문한 노드를 스택에 추가합니다. 현재 노드와 연결된 인접한 노드들 중에서" />
+    <meta property="og:url" content="https://jjaemin0224.github.io/DFS" />
     <meta property="og:image" content="https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2023-05-03T17:30:00+09:00" />
-    <meta property="article:modified_time" content="2023-05-03T17:30:00+09:00" />
+    <meta property="article:published_time" content="2023-06-23T20:06:00+09:00" />
+    <meta property="article:modified_time" content="2023-06-23T20:06:00+09:00" />
     <meta property="article:tag" content="Algorithm" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="[알고리즘] 재귀(Recursion)와 반복(Iteration)" />
-    <meta name="twitter:description" content="1. 재귀(Recursion) 1-1. 개념 재귀는 함수나 알고리즘 내에서 자기 자신을 호출하는 것을 의미합니다. 재귀는 주어진 문제를 작은 부분 문제로 나누고, 작은 부분 문제를 해결하기 위해 동일한 함수를 다시 호출하여 해결하는 방식입니다. 재귀 함수는 보통 재귀 호출을 멈출 수 있는 종료 조건(base case)을 포함하고 있어야 합니다. 1-2. 특징 문제를 더 작은" />
+    <meta name="twitter:title" content="[알고리즘] DFS(깊이 우선 탐색)" />
+    <meta name="twitter:description" content="1. DFS DFS(Depth-First Search, 깊이 우선 탐색)은 그래프에서 사용되는 탐색 알고리즘 중 하나입니다. 이 알고리즘은 그래프의 깊은 기분을 우선적으로 탐색하는 방식으로 동작합니다. DFS는 스택(Stack) 자료구조를 활용하거나 재귀적인 호출을 통해 구현할 수 있습니다. DFS의 동작 과정은 다음과 같습니다: 시작 노드를 방문하고 방문한 노드를 스택에 추가합니다. 현재 노드와 연결된 인접한 노드들 중에서" />
     <meta name="twitter:url" content="https://jjaemin0224.github.io/" />
     <meta name="twitter:image" content="https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -85,7 +85,7 @@
         "name": "Jaemin's BLOG",
         "logo": "https://jjaemin0224.github.io/"
     },
-    "url": "https://jjaemin0224.github.io/Recursion-and-Iteration",
+    "url": "https://jjaemin0224.github.io/DFS",
     "image": {
         "@type": "ImageObject",
         "url": "https://jjaemin0224.github.io/assets/images/blog/backgroud.jpg",
@@ -94,9 +94,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jjaemin0224.github.io/Recursion-and-Iteration"
+        "@id": "https://jjaemin0224.github.io/DFS"
     },
-    "description": "1. 재귀(Recursion) 1-1. 개념 재귀는 함수나 알고리즘 내에서 자기 자신을 호출하는 것을 의미합니다. 재귀는 주어진 문제를 작은 부분 문제로 나누고, 작은 부분 문제를 해결하기 위해 동일한 함수를 다시 호출하여 해결하는 방식입니다. 재귀 함수는 보통 재귀 호출을 멈출 수 있는 종료 조건(base case)을 포함하고 있어야 합니다. 1-2. 특징 문제를 더 작은"
+    "description": "1. DFS DFS(Depth-First Search, 깊이 우선 탐색)은 그래프에서 사용되는 탐색 알고리즘 중 하나입니다. 이 알고리즘은 그래프의 깊은 기분을 우선적으로 탐색하는 방식으로 동작합니다. DFS는 스택(Stack) 자료구조를 활용하거나 재귀적인 호출을 통해 구현할 수 있습니다. DFS의 동작 과정은 다음과 같습니다: 시작 노드를 방문하고 방문한 노드를 스택에 추가합니다. 현재 노드와 연결된 인접한 노드들 중에서"
 }
     </script>
 
@@ -109,7 +109,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="[알고리즘] 재귀(Recursion)와 반복(Iteration)" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="[알고리즘] DFS(깊이 우선 탐색)" href="/feed.xml" />
 
 
 </head>
@@ -176,7 +176,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime=" 3 May 2023"> 3 May 2023</time>
+                    <time class="post-full-meta-date" datetime="23 June 2023">23 June 2023</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -186,7 +186,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">[알고리즘] 재귀(Recursion)와 반복(Iteration)</h1>
+                <h1 class="post-full-title">[알고리즘] DFS(깊이 우선 탐색)</h1>
             </header>
 
             <!-- 
@@ -196,63 +196,127 @@ into the {body} of the default.hbs template -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <hr />
-<h2 id="1-재귀recursion">1. 재귀(Recursion)</h2>
+<h2 id="1-dfs">1. DFS</h2>
 
-<h4 id="1-1-개념">1-1. 개념</h4>
-<p>재귀는 함수나 알고리즘 내에서 자기 자신을 호출하는 것을 의미합니다. 재귀는 주어진 문제를 작은 부분 문제로 나누고, 작은 부분 문제를 해결하기 위해 동일한 함수를 다시 호출하여 해결하는 방식입니다. 재귀 함수는 보통 재귀 호출을 멈출 수 있는 종료 조건(base case)을 포함하고 있어야 합니다.</p>
+<p><strong>DFS(Depth-First Search, 깊이 우선 탐색)</strong>은 그래프에서 사용되는 탐색 알고리즘 중 하나입니다. 이 알고리즘은 그래프의 깊은 기분을 우선적으로 탐색하는 방식으로 동작합니다. DFS는 스택(Stack) 자료구조를 활용하거나 재귀적인 호출을 통해 구현할 수 있습니다.</p>
 
-<h4 id="1-2-특징">1-2. 특징</h4>
-<ul>
-  <li>문제를 더 작은 부분 문제로 분할하여 해결합니다.</li>
-  <li>종료 조건을 명시하여 재귀 호출을 멈출 수 있습니다.</li>
-  <li>코드가 간결하고 가독성이 높을 수 있습니다.</li>
-  <li>일부 경우에는 반복문에 비해 성능 면에서 효율적일 수 있습니다.</li>
-  <li>하지만 재귀는 호출 스택을 사용하기 때문에 깊은 재귀 호출이 발생하면 스택 오버플로우(Stact Overflow) 문제가 발생할 수 있습니다.</li>
-</ul>
+<p>DFS의 동작 과정은 다음과 같습니다:</p>
 
-<h4 id="1-3-예제-python">1-3. 예제 (python)</h4>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">1</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="n">factorial</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
+<ol>
+  <li>시작 노드를 방문하고 방문한 노드를 스택에 추가합니다.</li>
+  <li>현재 노드와 연결된 인접한 노드들 중에서 방문하지 않은 노드를 하나 선택합니다.</li>
+  <li>선택한 노드를 방문하고 스택에 추가합니다.</li>
+  <li>방문한 노드와 연결된 노드들 중에서 방문하지 않은 노드가 없을 때까지 2-3 단계를 반복합니다.</li>
+  <li>방문하지 않은 노드가 없으면 스택에서 하나의 노드를 꺼내서 현재 노드로 설정하고, 2-5 단계를 반복합니다.</li>
+  <li>스택이 비어있을 때까지 반복합니다.</li>
+</ol>
+
+<p>DFS는 깊이에 우선순위를 두고 탐색하기 때문에 가능한 한 깊숙히 탐색하며, 현재 경로에서 더 이상 진행할 수 없을 때 되돌아가 다른 경로를 탐색합니다. 이러한 특징으로 인해 DFS는 재귀적인 구조를 가지며, 더 이상 진행할 수 없는 상황에서 되돌아와 다른 경로를 탐색하므로 백트래킹(backtracking) 알고리즘과 관련이 있습니다.</p>
+
+<p>깊이 우선 탐색은 주로 그래프의 연결성, 사이클의 존재 여부, 미로 찾기 등의 문제에서 사용됩니다. 또한, 트리 구조에서도 DFS를 활용하여 전위 순회, 중위 순회, 후위 순회 등의 탐색을 수행할 수 있습니다.</p>
 
 <hr />
-<h2 id="2-반복iteration">2. 반복(Iteration)</h2>
+<h2 id="2-bfs-특징">2. BFS 특징</h2>
 
-<h4 id="2-1-개념">2-1. 개념</h4>
-<p>반복은 루프(loop)를 사용하여 동일한 작업을 여러 번 수행하는 방식입니다. 반복은 초기 조건과 종료 조건을 설정하여 반복할 범위를 제어하며, 반복 구조 내에서 작업이 반복적으로 실행됩니다. 대부분의 프로그래밍 언어는 반복을 위한 다양한 종류의 루프 구문(예:for문, while문)을 제공합니다.</p>
-
-<h4 id="2-2-특징">2-2. 특징</h4>
 <ul>
-  <li>초기 조건과 종료 조건을 명시하여 반복 범위를 제어합니다.</li>
-  <li>명시적으로 반복 구조를 작성해야 하기 때문에 코드가 길어질 수 있습니다.</li>
-  <li>스택 오버플로우 문제를 발생시키지 않습니다.</li>
-  <li>일반적으로 반복문은 재귀에 비해 성능 면에서 더 효율적일 수 있습니다.</li>
+  <li><strong>깊은 탐색</strong> <br />
+ DFS는 가능한 한 깊이 탐색하고, 현재 경로에서 더 이상 진행할 수 없을 때 되돌아가 다른 경로를 탐색합니다. 이러한 특성으로 인해 DFS는 그래의 깊은 부분을 우선적으로 탐색합니다.</li>
+  <li><strong>스택 또는 재귀 호출</strong> <br />
+ DFS는 스택(Stack) 자료구조를 활용하여 구현할 수 있습니다. 방문한 정점을 스택에 저장하고, 스택에서 정점을 꺼내어 연결된 정점을 탐색하는 방식입니다. 또는 재귀 호출을 통해 DFS를 구현할 수 있습니다.</li>
+  <li><strong>백트래킹</strong> <br />
+ DFS는 모든 가능한 경로를 탐색하며, 더 이상 진행할 수 없는 상황에서 되돌아와 다른 경로를 탐색합니다. 이러한 백트래킹(backtracking) 기법은 특정 조건을 만족하는 해를 찾는데 유용합니다.</li>
+  <li><strong>그래프와 트리 탐색</strong> <br />
+ DFS는 그래프 탐색에서 많이 사용되며, 트리 구조의 탐색에도 활용됩니다. 트리에서는 전위, 중위, 후위 순회 등의 탐색 순서를 DFS로 구현할 수 있습니다.</li>
+  <li><strong>메모리 사용</strong> <br />
+ DFS는 깊은 탐색을 위해 재귀 호출이나 스택을 사용하므로, 재귀 호출의 깊이가 깊을수록 스택의 메모리 사용량도 증가합니다. 따라서 매우 깊은 그래프의 경우 스택 오버플로우(Stack Overflow)의 가능성이 있습니다.</li>
+  <li><strong>미로 찾기와 경로 탐색</strong> <br />
+ DFS는 미로 찾기와 경로 탐색과 같은 문제에서 효과적으로 사용될 수 있습니다. DFS는 한 경로를 따라 최대한 깊이 탐색하다가 더 이 상 진행할 수 없을 때 다른 경로를 탐색하므로, 목표지점까지의 경로를 찾는데 유용합니다.</li>
 </ul>
 
-<h4 id="2-3-예제-python">2-3. 예제 (python)</h4>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
-        <span class="n">result</span> <span class="o">*=</span> <span class="n">i</span>
-    <span class="k">return</span> <span class="n">result</span>
-</code></pre></div></div>
+<p>DFS는 그래프와 트리를 탐색하는데 유용한 알고리즘으로, 깊이 우선 탐색의 특징을 활용하여 다양한 문제를 해결할 수 있습니다.</p>
 
 <hr />
-<h2 id="3-재귀-활용">3. 재귀 활용</h2>
+<h2 id="3-dfs-예시">3. DFS 예시</h2>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fibonacci</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">n</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibonacci</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+<h4 id="3-1-문제섬의-개수">3-1. 문제(섬의 개수)</h4>
+<p>주어진 2차원 그리드에서 섬은 1로 표시되고, 물은 0으로 표시됩니다. 인접한 섬은 상하좌우 또는 대각선으로 연결되어 있다고 가정합니다. 섬의 개수를 계산하는 프로그램을 작성하세요.</p>
 
-<span class="n">result</span> <span class="o">=</span> <span class="n">fibonacci</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>  <span class="c1"># 출력: 8
-</span></code></pre></div></div>
-<p>위의 예제에서 fibonacci 함수는 피보나치 수열의 n번째 값을 재귀적으로 계산합니다. 함수가 자기 자신을 호출하면서 n-1과 n-2의 값을 재귀적으로 계산하여 최종 결과를 반환합니다.</p>
+<h4 id="3-2-입출력">3-2. 입출력</h4>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input:
+[
+  [1, 1, 0, 0, 0],
+  [1, 1, 0, 0, 0],
+  [0, 0, 1, 0, 0],
+  [0, 0, 0, 1, 1]
+]
+
+Output: 3
+</code></pre></div></div>
+
+<h4 id="3-3-코드">3-3. 코드</h4>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">IslandCount</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">numIslands</span><span class="o">(</span><span class="kt">char</span><span class="o">[][]</span> <span class="n">grid</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">grid</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">grid</span><span class="o">.</span><span class="na">length</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="mi">0</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="kt">int</span> <span class="n">numIslands</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+        <span class="kt">int</span> <span class="n">rows</span> <span class="o">=</span> <span class="n">grid</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
+        <span class="kt">int</span> <span class="n">cols</span> <span class="o">=</span> <span class="n">grid</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">length</span><span class="o">;</span>
+
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">rows</span><span class="o">;</span> <span class="n">i</span><span class="o">++;)</span> <span class="o">{</span>
+            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">cals</span><span class="o">;</span> <span class="n">j</span><span class="o">++;)</span> <span class="o">{</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">grid</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">==</span> <span class="sc">'1'</span><span class="o">)</span> <span class="o">{</span>
+                    <span class="n">numIslands</span><span class="o">++;</span>
+                    <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">i</span><span class="o">,</span> <span class="n">j</span><span class="o">);</span>
+                <span class="o">}</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+
+    <span class="k">return</span> <span class="n">numIslands</span><span class="o">;</span>
+
+    <span class="o">}</span> <span class="c1">// end numIslands</span>
+
+    <span class="kd">private</span> <span class="kt">void</span> <span class="nf">dfs</span><span class="o">(</span><span class="kt">char</span><span class="o">[][]</span> <span class="n">grid</span><span class="o">,</span> <span class="kt">int</span> <span class="n">row</span><span class="o">,</span> <span class="kt">int</span> <span class="n">col</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">rows</span> <span class="o">=</span> <span class="n">grid</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
+        <span class="kt">int</span> <span class="n">cols</span> <span class="o">=</span> <span class="n">grid</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">length</span><span class="o">;</span>
+
+        <span class="k">if</span> <span class="o">(</span><span class="n">row</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">col</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">row</span> <span class="o">&gt;=</span> <span class="n">rows</span> <span class="o">||</span> <span class="n">col</span> <span class="o">&gt;=</span> <span class="n">cols</span> <span class="o">||</span> <span class="n">grid</span><span class="o">[</span><span class="n">row</span><span class="o">][</span><span class="n">col</span><span class="o">]</span> <span class="o">!=</span> <span class="sc">'1'</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">return</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="n">grid</span><span class="o">[</span><span class="n">row</span><span class="o">][</span><span class="n">col</span><span class="o">]</span> <span class="o">=</span> <span class="sc">'0'</span> <span class="c1">// 방문한 섬을 '0'으로 표시</span>
+
+        <span class="c1">// 상하좌우 및 대각선 방향으로 재귀적으로 탐색</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">row</span> <span class="o">-</span> <span class="mi">1</span><span class="o">,</span> <span class="n">col</span><span class="o">);</span> <span class="c1">// 상</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">row</span> <span class="o">+</span> <span class="mi">1</span><span class="o">,</span> <span class="n">col</span><span class="o">);</span> <span class="c1">// 하</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">row</span><span class="o">,</span> <span class="n">col</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span> <span class="c1">// 좌</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">row</span><span class="o">,</span> <span class="n">col</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span> <span class="c1">// 우</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">row</span> <span class="o">-</span> <span class="mi">1</span><span class="o">,</span> <span class="n">col</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span> <span class="c1">// 좌상</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">row</span> <span class="o">-</span> <span class="mi">1</span><span class="o">,</span> <span class="n">col</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span> <span class="c1">// 우상</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">row</span> <span class="o">+</span> <span class="mi">1</span><span class="o">,</span> <span class="n">col</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span> <span class="c1">// 좌하</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">grid</span><span class="o">,</span> <span class="n">row</span> <span class="o">+</span> <span class="mi">1</span><span class="o">,</span> <span class="n">col</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span> <span class="c1">// 우하</span>
+
+    <span class="o">}</span> <span class="c1">// end dfs</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">char</span><span class="o">[][]</span> <span class="n">grid</span> <span class="o">=</span> <span class="o">{</span>
+            <span class="o">{</span><span class="sc">'1'</span><span class="o">,</span> <span class="sc">'1'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">},</span>
+            <span class="o">{</span><span class="sc">'1'</span><span class="o">,</span> <span class="sc">'1'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">},</span>
+            <span class="o">{</span><span class="sc">'0'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">,</span> <span class="sc">'1'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">},</span>
+            <span class="o">{</span><span class="sc">'0'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">,</span> <span class="sc">'0'</span><span class="o">,</span> <span class="sc">'1'</span><span class="o">,</span> <span class="sc">'1'</span><span class="o">}</span>
+        <span class="o">};</span>
+
+        <span class="nc">IslandCount</span> <span class="n">islandCount</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IslandCount</span><span class="o">();</span>
+        <span class="kt">int</span> <span class="n">numIslands</span> <span class="o">=</span> <span class="n">islandCount</span><span class="o">.</span><span class="na">numIslands</span><span class="o">(</span><span class="n">grid</span><span class="o">);</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"섬의 개수: "</span> <span class="o">+</span> <span class="n">numIslands</span><span class="o">);</span>
+    <span class="o">}</span>
+
+
+<span class="o">}</span>
+
+
+</code></pre></div></div>
+
 
                 </div>
             </section>
@@ -374,11 +438,6 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                            <li><a href="/DFS">[알고리즘] DFS(깊이 우선 탐색)</a></li>
-                                        
                                     
                                   
                                 
@@ -526,12 +585,7 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
+                                            <li><a href="/sorting-algorithm">[알고리즘] 정렬</a></li>
                                         
                                     
                                   
@@ -544,7 +598,10 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                
+                                    
+                                        
+                                        
+                                    
                                   
                                 
                                   
@@ -560,6 +617,13 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                     
                                   
                                 
@@ -650,7 +714,7 @@ into the {body} of the default.hbs template -->
     <article class="post-card post-template no-image">
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/Application">
+            <a class="post-card-content-link" href="/programming-paradigm">
                 <header class="post-card-header">
                     
                         
@@ -660,13 +724,59 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">[개념] 애플리케이션(Application)</h2>
+                    <h2 class="post-card-title">[개념] 프로그래밍 패러다임</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>
-1. Appication
-애플리케이션은 소프트웨어 프로그램으로, 사용자 또는 시스템의 요구에 따라 특정 기능을 수행하는 프로그램을 말합니다. 일반적으로 애플리케이션은 사용자 인터페이스(UI)를 통해 사용자와 상호작용하며, 데이터를 처리하고 조작하는 기능을 제공합니다.
+                        <p>프로그래밍 패러다임 프로그래밍 패러다임(Programming Paradigm)은 프로그램을 수행하는 방식과 접근 방법을 기술하는 개념입니다. 언어와는 별개로, 프로갬의 구조와 작성 방법을 결정하는 원리와 철학을 의미합니다. 다양한 프로그래밍 패러다임은 다른 문제 해결 방식과 코드의 구조를 제공하며, 특정한</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/jjaemin0224/">jjaemin0224</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      2 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/b2581">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Baekjoon</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">[백준] 2581번(java)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>소수
 
 </p>
                     
@@ -695,57 +805,6 @@ into the {body} of the default.hbs template -->
 
             
 
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-
-    <article class="post-card post-template no-image">
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/algorithm-category">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Algorithm</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">[알고리즘] 알고리즘 유형</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>
-1. 분할 정복 알고리즘(Divide and Conquer Algorithm)
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/blog/jaemin.jpg" alt="jjaemin0224" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/jjaemin0224/">jjaemin0224</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      3 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
-
         </div>
     </div>
 </aside>
@@ -759,18 +818,18 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">[알고리즘] 재귀(Recursion)와 반복(Iteration)</div>
+    <div class="floating-header-title">[알고리즘] DFS(깊이 우선 탐색)</div>
     <!-- <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%5B%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%5D+%EC%9E%AC%EA%B7%80%28Recursion%29%EC%99%80+%EB%B0%98%EB%B3%B5%28Iteration%29&amp;url=https://jjaemin0224.github.io/Recursion-and-Iteration"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%5B%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%5D+DFS%28%EA%B9%8A%EC%9D%B4+%EC%9A%B0%EC%84%A0+%ED%83%90%EC%83%89%29&amp;url=https://jjaemin0224.github.io/DFS"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jjaemin0224.github.io/Recursion-and-Iteration"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jjaemin0224.github.io/DFS"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
